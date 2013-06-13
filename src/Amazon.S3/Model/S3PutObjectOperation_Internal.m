@@ -33,6 +33,9 @@
 @synthesize retryCount = _retryCount;
 @synthesize delegate = _delegate;
 
+@synthesize error = _error;
+@synthesize exception = _exception;
+
 #pragma mark - Class Lifecycle
 
 - (id)init
