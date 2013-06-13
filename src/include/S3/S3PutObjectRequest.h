@@ -31,6 +31,17 @@
  */
 @interface S3PutObjectRequest:S3AbstractPutRequest {
     BOOL expiresSet;
+    NSString *cacheControl;
+    NSString *contentDisposition;
+    NSString *contentEncoding;
+    NSString *contentMD5;
+    BOOL generateMD5;
+    NSString *expect;
+    NSData *data;
+    NSInputStream *stream;
+    NSInteger expires;
+    NSString *filename;
+    NSString *redirectLocation;
 }
 
 /** Can be used to specify caching behavior along the request/reply chain.

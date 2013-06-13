@@ -31,6 +31,13 @@
 
 @interface AmazonAbstractWebServiceClient : NSObject
 {
+    NSString *_endpoint;
+    NSInteger _maxRetries;
+    NSTimeInterval _timeout;
+    NSTimeInterval _connectionTimeout;
+    NSTimeInterval _delay;
+    NSString * _userAgent;
+    id<AmazonCredentialsProvider> _provider;
 }
 
 @property (atomic, retain) id<AmazonCredentialsProvider> provider;

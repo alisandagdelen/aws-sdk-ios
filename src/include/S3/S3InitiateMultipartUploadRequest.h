@@ -21,6 +21,11 @@
  */
 @interface S3InitiateMultipartUploadRequest:S3AbstractPutRequest {
     BOOL      expiresSet;
+    NSString *cacheControl;
+    NSString *contentDisposition;
+    NSString *contentEncoding;
+    NSString *redirectLocation;
+    NSInteger expires;
 }
 
 -(id)initWithKey:(NSString *)aKey inBucket:(NSString *)aBucket;

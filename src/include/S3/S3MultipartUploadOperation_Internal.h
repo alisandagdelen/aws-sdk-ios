@@ -17,10 +17,30 @@
 #import "AmazonServiceRequest.h"
 #import "AmazonS3Client.h"
 
+typedef void (^AbortMultipartUploadBlock)();
+
 @protocol AmazonCredentialsProvider;
 
 @interface S3MultipartUploadOperation_Internal : NSOperation <AmazonServiceRequestDelegate>
 {
+    BOOL _isExecuting;
+    BOOL _isFinished;
+    AmazonS3Client *_s3;
+    S3PutObjectRequest *_request;
+    AmazonServiceResponse *_response;
+    NSError *_error;
+    NSException *_exception;
+    NSUInteger _partSize;
+    NSUInteger _contentLength;
+    NSUInteger _currentPartNo;
+    NSInteger _numberOfParts;
+    NSInteger _retryCount;
+    AbortMultipartUploadBlock _abortMultipartUpload;
+    S3InitiateMultipartUploadRequest *_initRequest;
+    S3InitiateMultipartUploadResponse *_initResponse;
+    S3MultipartUpload *_multipartUpload;
+    S3CompleteMultipartUploadRequest *_completeRequest;
+    NSData *_dataForPart;
 }
 
 @property (nonatomic, retain) AmazonS3Client *s3;

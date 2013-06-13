@@ -17,8 +17,6 @@
 
 @interface S3AbortMultiplartUploadsOperation_Internal ()
 {
-    BOOL _isExecuting;
-    BOOL _isFinished;
 }
 
 @end
@@ -27,6 +25,10 @@
 
 @synthesize delegate = _delegate;
 @synthesize s3 = _s3;
+@synthesize date = _date;
+@synthesize key = _key;
+@synthesize bucket = _bucket;
+
 
 #pragma mark - Class Lifecycle
 

@@ -20,9 +20,9 @@
  * a time, either expressed in an age, or an explicit date.
  */
 @interface S3BucketLifecycleConfigurationTransition:NSObject {
-    NSString *storageClass;
-    NSString *transitionDays;
-    NSDate   *transitionDate;
+    NSString *_storageClass;
+    NSInteger _transitionDays;
+    NSDate   *_transitionDate;
     
 }
 

@@ -29,6 +29,12 @@
  */
 @interface S3TransferManager : NSObject
 {
+    id<AmazonServiceRequestDelegate> _delegate;
+    AmazonS3Client *_s3;
+    NSUInteger _minimumUploadPartSize;
+    NSUInteger _multipartUploadThreshold;
+    BOOL _noSyncMethodsOnMainThread;
+   
 }
 
 #pragma mark - S3TransferManager properties

@@ -17,8 +17,6 @@
 
 @interface S3PutObjectOperation_Internal ()
 {
-    BOOL _isExecuting;
-    BOOL _isFinished;
 }
 
 @property (nonatomic, assign) NSInteger retryCount;

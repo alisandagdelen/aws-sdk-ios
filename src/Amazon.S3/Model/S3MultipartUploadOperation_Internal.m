@@ -16,12 +16,10 @@
 #import "S3MultipartUploadOperation_Internal.h"
 #import "AmazonErrorHandler.h"
 
-typedef void (^AbortMultipartUploadBlock)();
 
 @interface S3MultipartUploadOperation_Internal ()
 {
-    BOOL _isExecuting;
-    BOOL _isFinished;
+    
 }
 
 @property (nonatomic, assign) NSUInteger contentLength;
@@ -40,6 +38,11 @@ typedef void (^AbortMultipartUploadBlock)();
 @implementation S3MultipartUploadOperation_Internal
 
 @synthesize s3 = _s3;
+@synthesize request = _request;
+@synthesize response = _response;
+@synthesize error = _error;
+@synthesize exception = _exception;
+@synthesize partSize = _partSize;
 
 @synthesize contentLength = _contentLength;
 @synthesize currentPartNo = _currentPartNo;

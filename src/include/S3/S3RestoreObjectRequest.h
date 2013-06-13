@@ -28,6 +28,7 @@
  *
  */
 @interface S3RestoreObjectRequest:S3Request {
+    NSInteger _days;
 }
 
 -(id)initWithKey:(NSString *)aKey withBucket:(NSString *)aBucket withDays:(NSInteger)theDays;

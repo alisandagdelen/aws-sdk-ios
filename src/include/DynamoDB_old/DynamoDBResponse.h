@@ -23,6 +23,7 @@
  *
  */
 @interface DynamoDBResponse:AmazonServiceResponse {
+    uint32_t crc32;
 }
 
 @property (nonatomic, assign) uint32_t crc32;

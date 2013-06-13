@@ -21,6 +21,15 @@
 
 @interface S3PutObjectOperation_Internal : NSOperation <AmazonServiceRequestDelegate>
 {
+    BOOL _isExecuting;
+    BOOL _isFinished;
+    AmazonS3Client *_s3;
+    S3PutObjectRequest *_request;
+    AmazonServiceResponse *_response;
+    NSError *_error;
+    NSException *_exception;
+    NSInteger _retryCount;
+    id<AmazonServiceRequestDelegate> _delegate;
 }
 
 @property (nonatomic, retain) AmazonS3Client *s3;

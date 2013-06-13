@@ -22,6 +22,13 @@
  * @see AmazonCredentialsProvider
  */
 @interface AmazonSTSCredentialsProvider : NSObject<AmazonCredentialsProvider>
+{
+    AmazonSecurityTokenServiceClient *_sts;
+    AmazonCredentials                *_stsCredentials;
+    NSDate                           *_expiration;
+    NSInteger                        _sessionLength;
+
+}
 
 /** 
  * The duration of the credentials generated for STS in seconds

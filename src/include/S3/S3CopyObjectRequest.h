@@ -28,6 +28,14 @@
  *
  */
 @interface S3CopyObjectRequest:S3AbstractPutRequest {
+    NSString *sourceKey;
+    NSString *sourceBucket;
+    NSString *metadataDirective;
+    NSString *ifMatch;
+    NSString *ifNoneMatch;
+    NSDate *ifModifiedSince;
+    NSDate *ifUnmodifiedSince;
+    NSString *redirectLocation;
 }
 
 /** The name of the source object. */

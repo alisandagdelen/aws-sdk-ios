@@ -19,6 +19,13 @@
  * Container for rules of cross origin configuration.
  */
 @interface S3CORSRule:NSObject {
+    NSString *_ruleId;
+    NSArray *_allowedMethods;
+    NSArray *_allowedOrigins;
+    NSInteger _maxAgeSeconds;
+    NSArray *_exposeHeaders;
+    NSArray *_allowedHeaders;
+    
 }
 
 /** The Id of this rule. */

@@ -22,7 +22,7 @@
 @synthesize ruleId=_ruleId;
 @synthesize status=_status;
 @synthesize prefix=_prefix;
-@synthesize expirationInDays;
+@synthesize expirationInDays=_expirationInDays;
 @synthesize expirationDate=_expirationDate;
 @synthesize transitions=_transitions;
 
@@ -87,7 +87,7 @@
 
 -(BOOL)isEnabled
 {
-    return [status isEqualToString:S3_BUCKET_LIFECYCLE_RULE_ENABLED];
+    return [self.status isEqualToString:S3_BUCKET_LIFECYCLE_RULE_ENABLED];
 }
 
 
