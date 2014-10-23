@@ -39,7 +39,11 @@
     [self.urlRequest setValue:[NSString stringWithFormat:@"%lld", self.contentLength] forHTTPHeaderField:kHttpHdrContentLength];
 
     [self.urlRequest setValue:self.host forHTTPHeaderField:kHttpHdrHost];
-    [self.urlRequest setValue:[self.date stringWithRFC822Format] forHTTPHeaderField:kHttpHdrDate];
+    
+    NSString *checkFormat =[self.date stringWithRFC822Format];
+    if(![checkFormat hasSuffix:@":00"])
+        checkFormat = [NSString stringWithFormat:@"%@:00",checkFormat];
+    [self.urlRequest setValue:checkFormat forHTTPHeaderField:kHttpHdrDate];
 
     if (nil != self.httpMethod) {
         [self.urlRequest setHTTPMethod:self.httpMethod];
