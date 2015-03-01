@@ -28,7 +28,7 @@ typedef struct _AWSRange {
 }
 
 @property (nonatomic, assign) int64_t contentLength;
-@property (nonatomic, assign) NSInteger currentPartNo;
+@property (nonatomic, assign) int currentPartNo;
 @property (nonatomic, assign) NSInteger numberOfParts;
 @property (nonatomic, assign) NSInteger retryCount;
 @property (nonatomic, copy) AbortMultipartUploadBlock abortMultipartUpload;

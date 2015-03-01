@@ -2612,58 +2612,58 @@
 		B25A71B017694C6C0074158B /* SimpleDBSelectResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D054D565128C8AFE009B5334 /* SimpleDBSelectResponseUnmarshaller.h */; };
 		B25A71B117694C6C0074158B /* SimpleDBTooManyRequestedAttributesException.h in Headers */ = {isa = PBXBuildFile; fileRef = D054D566128C8AFE009B5334 /* SimpleDBTooManyRequestedAttributesException.h */; };
 		B25A71B217694C6C0074158B /* SimpleDBUpdateCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = D054D568128C8AFE009B5334 /* SimpleDBUpdateCondition.h */; };
-		B25A71B317694C6C0074158B /* AmazonSNSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08B9129458A600376534 /* AmazonSNSClient.h */; };
-		B25A71B417694C6C0074158B /* SNSAddPermissionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08BA129458A600376534 /* SNSAddPermissionRequest.h */; };
-		B25A71B517694C6C0074158B /* SNSAddPermissionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08BC129458A600376534 /* SNSAddPermissionResponse.h */; };
-		B25A71B617694C6C0074158B /* SNSAddPermissionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08BD129458A600376534 /* SNSAddPermissionResponseUnmarshaller.h */; };
-		B25A71B717694C6C0074158B /* SNSAuthorizationErrorException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08BE129458A600376534 /* SNSAuthorizationErrorException.h */; };
-		B25A71B817694C6C0074158B /* SNSConfirmSubscriptionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C0129458A600376534 /* SNSConfirmSubscriptionRequest.h */; };
-		B25A71B917694C6C0074158B /* SNSConfirmSubscriptionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C2129458A600376534 /* SNSConfirmSubscriptionResponse.h */; };
-		B25A71BA17694C6C0074158B /* SNSConfirmSubscriptionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C3129458A600376534 /* SNSConfirmSubscriptionResponseUnmarshaller.h */; };
-		B25A71BB17694C6C0074158B /* SNSCreateTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C4129458A600376534 /* SNSCreateTopicRequest.h */; };
-		B25A71BC17694C6C0074158B /* SNSCreateTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C6129458A600376534 /* SNSCreateTopicResponse.h */; };
-		B25A71BD17694C6C0074158B /* SNSCreateTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C7129458A600376534 /* SNSCreateTopicResponseUnmarshaller.h */; };
-		B25A71BE17694C6C0074158B /* SNSDeleteTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08C8129458A600376534 /* SNSDeleteTopicRequest.h */; };
-		B25A71BF17694C6C0074158B /* SNSDeleteTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08CA129458A600376534 /* SNSDeleteTopicResponse.h */; };
-		B25A71C017694C6C0074158B /* SNSDeleteTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08CB129458A600376534 /* SNSDeleteTopicResponseUnmarshaller.h */; };
-		B25A71C117694C6C0074158B /* SNSGetTopicAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08CC129458A600376534 /* SNSGetTopicAttributesRequest.h */; };
-		B25A71C217694C6C0074158B /* SNSGetTopicAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08CE129458A600376534 /* SNSGetTopicAttributesResponse.h */; };
-		B25A71C317694C6C0074158B /* SNSGetTopicAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08CF129458A600376534 /* SNSGetTopicAttributesResponseUnmarshaller.h */; };
-		B25A71C417694C6C0074158B /* SNSInternalErrorException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D0129458A600376534 /* SNSInternalErrorException.h */; };
-		B25A71C517694C6C0074158B /* SNSInvalidParameterException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D2129458A600376534 /* SNSInvalidParameterException.h */; };
-		B25A71C617694C6C0074158B /* SNSListSubscriptionsByTopicRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D4129458A600376534 /* SNSListSubscriptionsByTopicRequest.h */; };
-		B25A71C717694C6C0074158B /* SNSListSubscriptionsByTopicResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D6129458A600376534 /* SNSListSubscriptionsByTopicResponse.h */; };
-		B25A71C817694C6C0074158B /* SNSListSubscriptionsByTopicResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D7129458A600376534 /* SNSListSubscriptionsByTopicResponseUnmarshaller.h */; };
-		B25A71C917694C6C0074158B /* SNSListSubscriptionsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08D8129458A600376534 /* SNSListSubscriptionsRequest.h */; };
-		B25A71CA17694C6C0074158B /* SNSListSubscriptionsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08DA129458A600376534 /* SNSListSubscriptionsResponse.h */; };
-		B25A71CB17694C6C0074158B /* SNSListSubscriptionsResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08DB129458A600376534 /* SNSListSubscriptionsResponseUnmarshaller.h */; };
-		B25A71CC17694C6C0074158B /* SNSListTopicsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08DC129458A600376534 /* SNSListTopicsRequest.h */; };
-		B25A71CD17694C6C0074158B /* SNSListTopicsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08DE129458A600376534 /* SNSListTopicsResponse.h */; };
-		B25A71CE17694C6C0074158B /* SNSListTopicsResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08DF129458A600376534 /* SNSListTopicsResponseUnmarshaller.h */; };
-		B25A71CF17694C6C0074158B /* SNSNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E0129458A600376534 /* SNSNotFoundException.h */; };
-		B25A71D017694C6C0074158B /* SNSPublishRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E2129458A600376534 /* SNSPublishRequest.h */; };
-		B25A71D117694C6C0074158B /* SNSPublishResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E4129458A600376534 /* SNSPublishResponse.h */; };
-		B25A71D217694C6C0074158B /* SNSPublishResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E5129458A600376534 /* SNSPublishResponseUnmarshaller.h */; };
-		B25A71D317694C6C0074158B /* SNSRemovePermissionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E6129458A600376534 /* SNSRemovePermissionRequest.h */; };
-		B25A71D417694C6C0074158B /* SNSRemovePermissionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E8129458A600376534 /* SNSRemovePermissionResponse.h */; };
-		B25A71D517694C6C0074158B /* SNSRemovePermissionResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08E9129458A600376534 /* SNSRemovePermissionResponseUnmarshaller.h */; };
-		B25A71D617694C6C0074158B /* SNSSetTopicAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08EA129458A600376534 /* SNSSetTopicAttributesRequest.h */; };
-		B25A71D717694C6C0074158B /* SNSSetTopicAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08EC129458A600376534 /* SNSSetTopicAttributesResponse.h */; };
-		B25A71D817694C6C0074158B /* SNSSetTopicAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08ED129458A600376534 /* SNSSetTopicAttributesResponseUnmarshaller.h */; };
-		B25A71D917694C6C0074158B /* SNSSubscribeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08EE129458A600376534 /* SNSSubscribeRequest.h */; };
-		B25A71DA17694C6C0074158B /* SNSSubscribeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F0129458A600376534 /* SNSSubscribeResponse.h */; };
-		B25A71DB17694C6C0074158B /* SNSSubscribeResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F1129458A600376534 /* SNSSubscribeResponseUnmarshaller.h */; };
-		B25A71DC17694C6C0074158B /* SNSSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F2129458A600376534 /* SNSSubscription.h */; };
-		B25A71DD17694C6C0074158B /* SNSSubscriptionLimitExceededException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F3129458A600376534 /* SNSSubscriptionLimitExceededException.h */; };
-		B25A71DE17694C6C0074158B /* SNSSubscriptionUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F5129458A600376534 /* SNSSubscriptionUnmarshaller.h */; };
-		B25A71DF17694C6C0074158B /* SNSTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F6129458A600376534 /* SNSTopic.h */; };
-		B25A71E017694C6C0074158B /* SNSTopicLimitExceededException.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F7129458A600376534 /* SNSTopicLimitExceededException.h */; };
-		B25A71E117694C6C0074158B /* SNSTopicUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08F9129458A600376534 /* SNSTopicUnmarshaller.h */; };
-		B25A71E217694C6C0074158B /* SNSUnsubscribeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08FA129458A600376534 /* SNSUnsubscribeRequest.h */; };
-		B25A71E317694C6C0074158B /* SNSUnsubscribeResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08FC129458A600376534 /* SNSUnsubscribeResponse.h */; };
-		B25A71E417694C6C0074158B /* SNSUnsubscribeResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D09F08FD129458A600376534 /* SNSUnsubscribeResponseUnmarshaller.h */; };
+		B25A71B317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71B917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BA17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BB17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BC17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BD17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BE17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71BF17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71C917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CA17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CB17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CC17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CD17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CE17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71CF17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71D917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DA17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DB17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DC17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DD17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DE17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71DF17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71E017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71E117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71E217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71E317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A71E417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A71E517694C6C0074158B /* SimpleDBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D07CEC7D129B3737008FF534 /* SimpleDBRequest.h */; };
-		B25A71E617694C6C0074158B /* SNSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DDA6B512A45CC4004B18C0 /* SNSRequest.h */; };
+		B25A71E617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A71E717694C6C0074158B /* SimpleDBBatchDeleteAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D01995EF12A72B3100CB8012 /* SimpleDBBatchDeleteAttributesRequest.h */; };
 		B25A71E817694C6C0074158B /* SimpleDBBatchDeleteAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D01995F112A72B3100CB8012 /* SimpleDBBatchDeleteAttributesResponse.h */; };
 		B25A71E917694C6C0074158B /* SimpleDBBatchDeleteAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D01995F212A72B3100CB8012 /* SimpleDBBatchDeleteAttributesResponseUnmarshaller.h */; };
@@ -2720,7 +2720,7 @@
 		B25A721C17694C6C0074158B /* CloudWatchSetAlarmStateResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE6F21012E4C0CC00465F92 /* CloudWatchSetAlarmStateResponseUnmarshaller.h */; };
 		B25A721D17694C6C0074158B /* CloudWatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE6F25012E4C22F00465F92 /* CloudWatchRequest.h */; };
 		B25A721E17694C6C0074158B /* CloudWatchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A0EA781344E709007721F9 /* CloudWatchResponse.h */; };
-		B25A721F17694C6C0074158B /* SNSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A0EA7A1344E717007721F9 /* SNSResponse.h */; };
+		B25A721F17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A722017694C6C0074158B /* SimpleDBResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A0EA7E1344E734007721F9 /* SimpleDBResponse.h */; };
 		B25A722117694C6C0074158B /* AmazonElasticLoadBalancingClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D018B73F1358B65C002D7716 /* AmazonElasticLoadBalancingClient.h */; };
 		B25A722217694C6C0074158B /* ElasticLoadBalancingAppCookieStickinessPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = D018B7401358B65C002D7716 /* ElasticLoadBalancingAppCookieStickinessPolicy.h */; };
@@ -2805,7 +2805,7 @@
 		B25A727117694C6C0074158B /* SimpleDBResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E647D41371BB520096DF65 /* SimpleDBResponseUnmarshaller.h */; };
 		B25A727217694C6C0074158B /* ElasticLoadBalancingResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D04C86481371D6D000F08418 /* ElasticLoadBalancingResponseUnmarshaller.h */; };
 		B25A727317694C6C0074158B /* CloudWatchResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D04C864E1371D71900F08418 /* CloudWatchResponseUnmarshaller.h */; };
-		B25A727417694C6C0074158B /* SNSResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D04C86501371D73400F08418 /* SNSResponseUnmarshaller.h */; };
+		B25A727417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A727517694C6C0074158B /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1A26137732E000891BD9 /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.h */; };
 		B25A727617694C6C0074158B /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1A27137732E000891BD9 /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.h */; };
 		B25A727717694C6C0074158B /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1A28137732E000891BD9 /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.h */; };
@@ -2832,19 +2832,19 @@
 		B25A728C17694C6C0074158B /* CloudWatchListMetricsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AE71377336900891BD9 /* CloudWatchListMetricsRequestMarshaller.h */; };
 		B25A728D17694C6C0074158B /* CloudWatchPutMetricAlarmRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AE81377336900891BD9 /* CloudWatchPutMetricAlarmRequestMarshaller.h */; };
 		B25A728E17694C6C0074158B /* CloudWatchSetAlarmStateRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AE91377336900891BD9 /* CloudWatchSetAlarmStateRequestMarshaller.h */; };
-		B25A728F17694C6C0074158B /* SNSAddPermissionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF41377338D00891BD9 /* SNSAddPermissionRequestMarshaller.h */; };
-		B25A729017694C6C0074158B /* SNSConfirmSubscriptionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF51377338D00891BD9 /* SNSConfirmSubscriptionRequestMarshaller.h */; };
-		B25A729117694C6C0074158B /* SNSCreateTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF61377338D00891BD9 /* SNSCreateTopicRequestMarshaller.h */; };
-		B25A729217694C6C0074158B /* SNSDeleteTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF71377338D00891BD9 /* SNSDeleteTopicRequestMarshaller.h */; };
-		B25A729317694C6C0074158B /* SNSGetTopicAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF81377338D00891BD9 /* SNSGetTopicAttributesRequestMarshaller.h */; };
-		B25A729417694C6C0074158B /* SNSListSubscriptionsByTopicRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AF91377338D00891BD9 /* SNSListSubscriptionsByTopicRequestMarshaller.h */; };
-		B25A729517694C6C0074158B /* SNSListSubscriptionsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFA1377338D00891BD9 /* SNSListSubscriptionsRequestMarshaller.h */; };
-		B25A729617694C6C0074158B /* SNSListTopicsRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFB1377338D00891BD9 /* SNSListTopicsRequestMarshaller.h */; };
-		B25A729717694C6C0074158B /* SNSPublishRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFC1377338D00891BD9 /* SNSPublishRequestMarshaller.h */; };
-		B25A729817694C6C0074158B /* SNSRemovePermissionRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFD1377338D00891BD9 /* SNSRemovePermissionRequestMarshaller.h */; };
-		B25A729917694C6C0074158B /* SNSSetTopicAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFE1377338D00891BD9 /* SNSSetTopicAttributesRequestMarshaller.h */; };
-		B25A729A17694C6C0074158B /* SNSSubscribeRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1AFF1377338D00891BD9 /* SNSSubscribeRequestMarshaller.h */; };
-		B25A729B17694C6C0074158B /* SNSUnsubscribeRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1B001377338D00891BD9 /* SNSUnsubscribeRequestMarshaller.h */; };
+		B25A728F17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729A17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A729B17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A729C17694C6C0074158B /* SimpleDBBatchDeleteAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1B24137733B300891BD9 /* SimpleDBBatchDeleteAttributesRequestMarshaller.h */; };
 		B25A729D17694C6C0074158B /* SimpleDBBatchPutAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1B25137733B300891BD9 /* SimpleDBBatchPutAttributesRequestMarshaller.h */; };
 		B25A729E17694C6C0074158B /* SimpleDBCreateDomainRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D03F1B26137733B300891BD9 /* SimpleDBCreateDomainRequestMarshaller.h */; };
@@ -2912,14 +2912,14 @@
 		B25A72DC17694C6C0074158B /* ElasticLoadBalancingInvalidSecurityGroupException.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867CC14BFB8BE00184AC6 /* ElasticLoadBalancingInvalidSecurityGroupException.h */; };
 		B25A72DD17694C6C0074158B /* ElasticLoadBalancingInvalidSubnetException.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867CD14BFB8BE00184AC6 /* ElasticLoadBalancingInvalidSubnetException.h */; };
 		B25A72DE17694C6C0074158B /* ElasticLoadBalancingSubnetNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867CE14BFB8BE00184AC6 /* ElasticLoadBalancingSubnetNotFoundException.h */; };
-		B25A72DF17694C6C0074158B /* SNSGetSubscriptionAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867DE14BFB8D500184AC6 /* SNSGetSubscriptionAttributesRequest.h */; };
-		B25A72E017694C6C0074158B /* SNSGetSubscriptionAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867DF14BFB8D500184AC6 /* SNSGetSubscriptionAttributesRequestMarshaller.h */; };
-		B25A72E117694C6C0074158B /* SNSGetSubscriptionAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E014BFB8D500184AC6 /* SNSGetSubscriptionAttributesResponse.h */; };
-		B25A72E217694C6C0074158B /* SNSGetSubscriptionAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E114BFB8D500184AC6 /* SNSGetSubscriptionAttributesResponseUnmarshaller.h */; };
-		B25A72E317694C6C0074158B /* SNSSetSubscriptionAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E214BFB8D500184AC6 /* SNSSetSubscriptionAttributesRequest.h */; };
-		B25A72E417694C6C0074158B /* SNSSetSubscriptionAttributesRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E314BFB8D500184AC6 /* SNSSetSubscriptionAttributesRequestMarshaller.h */; };
-		B25A72E517694C6C0074158B /* SNSSetSubscriptionAttributesResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E414BFB8D500184AC6 /* SNSSetSubscriptionAttributesResponse.h */; };
-		B25A72E617694C6C0074158B /* SNSSetSubscriptionAttributesResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D02867E514BFB8D500184AC6 /* SNSSetSubscriptionAttributesResponseUnmarshaller.h */; };
+		B25A72DF17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A72E617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A72E717694C6C0074158B /* CloudWatchMetricDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDA40EF151D519A002CBB54 /* CloudWatchMetricDatum.h */; };
 		B25A72E817694C6C0074158B /* CloudWatchPutMetricDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDA40F0151D519A002CBB54 /* CloudWatchPutMetricDataRequest.h */; };
 		B25A72E917694C6C0074158B /* CloudWatchPutMetricDataRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDA40F1151D519A002CBB54 /* CloudWatchPutMetricDataRequestMarshaller.h */; };
@@ -4121,41 +4121,41 @@
 		B25A779517694C6C0074158B /* DynamoDBWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CE45BE6C170A57CE00D1550D /* DynamoDBWebServiceClient.h */; };
 		B25A779617694C6C0074158B /* DynamoDBWriteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CE45BE6D170A57CE00D1550D /* DynamoDBWriteRequest.h */; };
 		B25A779717694C6C0074158B /* DynamoDBWriteRequestUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = CE45BE6E170A57CE00D1550D /* DynamoDBWriteRequestUnmarshaller.h */; };
-		B25A779817694C6C0074158B /* AmazonSecurityTokenServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2DF172719D4006AFCBC /* AmazonSecurityTokenServiceClient.h */; };
-		B25A779917694C6C0074158B /* AmazonSTSCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E0172719D4006AFCBC /* AmazonSTSCredentialsProvider.h */; };
-		B25A779A17694C6C0074158B /* AWSSecurityTokenService.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E1172719D4006AFCBC /* AWSSecurityTokenService.h */; };
-		B25A779B17694C6C0074158B /* SecurityTokenServiceAssumedRoleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E2172719D4006AFCBC /* SecurityTokenServiceAssumedRoleUser.h */; };
-		B25A779C17694C6C0074158B /* SecurityTokenServiceAssumedRoleUserUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E3172719D4006AFCBC /* SecurityTokenServiceAssumedRoleUserUnmarshaller.h */; };
-		B25A779D17694C6C0074158B /* SecurityTokenServiceAssumeRoleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E4172719D4006AFCBC /* SecurityTokenServiceAssumeRoleRequest.h */; };
-		B25A779E17694C6C0074158B /* SecurityTokenServiceAssumeRoleRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E5172719D4006AFCBC /* SecurityTokenServiceAssumeRoleRequestMarshaller.h */; };
-		B25A779F17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E6172719D4006AFCBC /* SecurityTokenServiceAssumeRoleResponse.h */; };
-		B25A77A017694C6C0074158B /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E7172719D4006AFCBC /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.h */; };
-		B25A77A117694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E8172719D4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.h */; };
-		B25A77A217694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2E9172719D4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.h */; };
-		B25A77A317694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2EA172719D4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.h */; };
-		B25A77A417694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2EB172719D4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.h */; };
-		B25A77A517694C6C0074158B /* SecurityTokenServiceCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2EC172719D4006AFCBC /* SecurityTokenServiceCredentials.h */; };
-		B25A77A617694C6C0074158B /* SecurityTokenServiceCredentialsUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2ED172719D4006AFCBC /* SecurityTokenServiceCredentialsUnmarshaller.h */; };
-		B25A77A717694C6C0074158B /* SecurityTokenServiceExpiredTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2EE172719D4006AFCBC /* SecurityTokenServiceExpiredTokenException.h */; };
-		B25A77A817694C6C0074158B /* SecurityTokenServiceFederatedUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2EF172719D4006AFCBC /* SecurityTokenServiceFederatedUser.h */; };
-		B25A77A917694C6C0074158B /* SecurityTokenServiceFederatedUserUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F0172719D4006AFCBC /* SecurityTokenServiceFederatedUserUnmarshaller.h */; };
-		B25A77AA17694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F1172719D4006AFCBC /* SecurityTokenServiceGetFederationTokenRequest.h */; };
-		B25A77AB17694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F2172719D4006AFCBC /* SecurityTokenServiceGetFederationTokenRequestMarshaller.h */; };
-		B25A77AC17694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F3172719D4006AFCBC /* SecurityTokenServiceGetFederationTokenResponse.h */; };
-		B25A77AD17694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F4172719D4006AFCBC /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.h */; };
-		B25A77AE17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F5172719D4006AFCBC /* SecurityTokenServiceGetSessionTokenRequest.h */; };
-		B25A77AF17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequestMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F6172719D4006AFCBC /* SecurityTokenServiceGetSessionTokenRequestMarshaller.h */; };
-		B25A77B017694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F7172719D4006AFCBC /* SecurityTokenServiceGetSessionTokenResponse.h */; };
-		B25A77B117694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F8172719D4006AFCBC /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.h */; };
-		B25A77B217694C6C0074158B /* SecurityTokenServiceIDPCommunicationErrorException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2F9172719D4006AFCBC /* SecurityTokenServiceIDPCommunicationErrorException.h */; };
-		B25A77B317694C6C0074158B /* SecurityTokenServiceIDPRejectedClaimException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FA172719D4006AFCBC /* SecurityTokenServiceIDPRejectedClaimException.h */; };
-		B25A77B417694C6C0074158B /* SecurityTokenServiceInvalidIdentityTokenException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FB172719D4006AFCBC /* SecurityTokenServiceInvalidIdentityTokenException.h */; };
-		B25A77B517694C6C0074158B /* SecurityTokenServiceMalformedPolicyDocumentException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FC172719D4006AFCBC /* SecurityTokenServiceMalformedPolicyDocumentException.h */; };
-		B25A77B617694C6C0074158B /* SecurityTokenServicePackedPolicyTooLargeException.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FD172719D4006AFCBC /* SecurityTokenServicePackedPolicyTooLargeException.h */; };
-		B25A77B717694C6C0074158B /* SecurityTokenServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FE172719D4006AFCBC /* SecurityTokenServiceRequest.h */; };
-		B25A77B817694C6C0074158B /* SecurityTokenServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB2FF172719D4006AFCBC /* SecurityTokenServiceResponse.h */; };
-		B25A77B917694C6C0074158B /* SecurityTokenServiceResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EDB300172719D4006AFCBC /* SecurityTokenServiceResponseUnmarshaller.h */; };
-		B25A77BA17694C6C0074158B /* AmazonWIFCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 38862594173B13DD00A038FF /* AmazonWIFCredentialsProvider.h */; };
+		B25A779817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779A17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779B17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779C17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779D17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779E17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A779F17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77A917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AA17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AB17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AC17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AD17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AE17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77AF17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B017694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B117694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B217694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B317694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B417694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B517694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B617694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B717694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B817694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77B917694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		B25A77BA17694C6C0074158B /* (null) in Headers */ = {isa = PBXBuildFile; };
 		B25A77BC17694C6C0074158B /* S3BucketLifecycleConfigurationTransitionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFF1751625DC390069348B /* S3BucketLifecycleConfigurationTransitionUnmarshaller.m */; };
 		B25A77BD17694C6C0074158B /* S3BucketLifecycleConfigurationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFF1761625DC390069348B /* S3BucketLifecycleConfigurationTransition.m */; };
 		B25A77BE17694C6C0074158B /* S3RestoreObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3830E61F1628801A000C443F /* S3RestoreObjectResponse.m */; };
@@ -4224,59 +4224,59 @@
 		B25A77FD17694C6C0074158B /* SimpleDBTooManyRequestedAttributesException.m in Sources */ = {isa = PBXBuildFile; fileRef = D054D4C2128C8AD5009B5334 /* SimpleDBTooManyRequestedAttributesException.m */; };
 		B25A77FE17694C6C0074158B /* SimpleDBUpdateCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = D054D4C4128C8AD5009B5334 /* SimpleDBUpdateCondition.m */; };
 		B25A77FF17694C6C0074158B /* AmazonServiceExceptionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0A8AE128DF3E600C70564 /* AmazonServiceExceptionUnmarshaller.m */; };
-		B25A780017694C6C0074158B /* AmazonSNSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07B71294585C00376534 /* AmazonSNSClient.m */; };
-		B25A780117694C6C0074158B /* SNSAddPermissionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07B91294585C00376534 /* SNSAddPermissionRequest.m */; };
-		B25A780217694C6C0074158B /* SNSAddPermissionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07BB1294585C00376534 /* SNSAddPermissionResponse.m */; };
-		B25A780317694C6C0074158B /* SNSAddPermissionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07BC1294585C00376534 /* SNSAddPermissionResponseUnmarshaller.m */; };
-		B25A780417694C6C0074158B /* SNSAuthorizationErrorException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07BD1294585C00376534 /* SNSAuthorizationErrorException.m */; };
-		B25A780517694C6C0074158B /* SNSConfirmSubscriptionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07BF1294585C00376534 /* SNSConfirmSubscriptionRequest.m */; };
-		B25A780617694C6C0074158B /* SNSConfirmSubscriptionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C11294585C00376534 /* SNSConfirmSubscriptionResponse.m */; };
-		B25A780717694C6C0074158B /* SNSConfirmSubscriptionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C21294585C00376534 /* SNSConfirmSubscriptionResponseUnmarshaller.m */; };
-		B25A780817694C6C0074158B /* SNSCreateTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C31294585C00376534 /* SNSCreateTopicRequest.m */; };
-		B25A780917694C6C0074158B /* SNSCreateTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C51294585C00376534 /* SNSCreateTopicResponse.m */; };
-		B25A780A17694C6C0074158B /* SNSCreateTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C61294585C00376534 /* SNSCreateTopicResponseUnmarshaller.m */; };
-		B25A780B17694C6C0074158B /* SNSDeleteTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C71294585C00376534 /* SNSDeleteTopicRequest.m */; };
-		B25A780C17694C6C0074158B /* SNSDeleteTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07C91294585C00376534 /* SNSDeleteTopicResponse.m */; };
-		B25A780D17694C6C0074158B /* SNSDeleteTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07CA1294585C00376534 /* SNSDeleteTopicResponseUnmarshaller.m */; };
-		B25A780E17694C6C0074158B /* SNSGetTopicAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07CB1294585C00376534 /* SNSGetTopicAttributesRequest.m */; };
-		B25A780F17694C6C0074158B /* SNSGetTopicAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07CD1294585C00376534 /* SNSGetTopicAttributesResponse.m */; };
-		B25A781017694C6C0074158B /* SNSGetTopicAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07CE1294585C00376534 /* SNSGetTopicAttributesResponseUnmarshaller.m */; };
-		B25A781117694C6C0074158B /* SNSInternalErrorException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07CF1294585C00376534 /* SNSInternalErrorException.m */; };
-		B25A781217694C6C0074158B /* SNSInvalidParameterException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D11294585C00376534 /* SNSInvalidParameterException.m */; };
-		B25A781317694C6C0074158B /* SNSListSubscriptionsByTopicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D31294585C00376534 /* SNSListSubscriptionsByTopicRequest.m */; };
-		B25A781417694C6C0074158B /* SNSListSubscriptionsByTopicResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D51294585C00376534 /* SNSListSubscriptionsByTopicResponse.m */; };
-		B25A781517694C6C0074158B /* SNSListSubscriptionsByTopicResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D61294585C00376534 /* SNSListSubscriptionsByTopicResponseUnmarshaller.m */; };
-		B25A781617694C6C0074158B /* SNSListSubscriptionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D71294585C00376534 /* SNSListSubscriptionsRequest.m */; };
-		B25A781717694C6C0074158B /* SNSListSubscriptionsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07D91294585C00376534 /* SNSListSubscriptionsResponse.m */; };
-		B25A781817694C6C0074158B /* SNSListSubscriptionsResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07DA1294585C00376534 /* SNSListSubscriptionsResponseUnmarshaller.m */; };
-		B25A781917694C6C0074158B /* SNSListTopicsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07DB1294585C00376534 /* SNSListTopicsRequest.m */; };
-		B25A781A17694C6C0074158B /* SNSListTopicsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07DD1294585C00376534 /* SNSListTopicsResponse.m */; };
-		B25A781B17694C6C0074158B /* SNSListTopicsResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07DE1294585C00376534 /* SNSListTopicsResponseUnmarshaller.m */; };
-		B25A781C17694C6C0074158B /* SNSNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07DF1294585C00376534 /* SNSNotFoundException.m */; };
-		B25A781D17694C6C0074158B /* SNSPublishRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E11294585C00376534 /* SNSPublishRequest.m */; };
-		B25A781E17694C6C0074158B /* SNSPublishResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E31294585C00376534 /* SNSPublishResponse.m */; };
-		B25A781F17694C6C0074158B /* SNSPublishResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E41294585C00376534 /* SNSPublishResponseUnmarshaller.m */; };
-		B25A782017694C6C0074158B /* SNSRemovePermissionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E51294585C00376534 /* SNSRemovePermissionRequest.m */; };
-		B25A782117694C6C0074158B /* SNSRemovePermissionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E71294585C00376534 /* SNSRemovePermissionResponse.m */; };
-		B25A782217694C6C0074158B /* SNSRemovePermissionResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E81294585C00376534 /* SNSRemovePermissionResponseUnmarshaller.m */; };
-		B25A782317694C6C0074158B /* SNSSetTopicAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07E91294585C00376534 /* SNSSetTopicAttributesRequest.m */; };
-		B25A782417694C6C0074158B /* SNSSetTopicAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07EB1294585C00376534 /* SNSSetTopicAttributesResponse.m */; };
-		B25A782517694C6C0074158B /* SNSSetTopicAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07EC1294585C00376534 /* SNSSetTopicAttributesResponseUnmarshaller.m */; };
-		B25A782617694C6C0074158B /* SNSSubscribeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07ED1294585C00376534 /* SNSSubscribeRequest.m */; };
-		B25A782717694C6C0074158B /* SNSSubscribeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07EF1294585C00376534 /* SNSSubscribeResponse.m */; };
-		B25A782817694C6C0074158B /* SNSSubscribeResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F01294585C00376534 /* SNSSubscribeResponseUnmarshaller.m */; };
-		B25A782917694C6C0074158B /* SNSSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F11294585C00376534 /* SNSSubscription.m */; };
-		B25A782A17694C6C0074158B /* SNSSubscriptionLimitExceededException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F21294585C00376534 /* SNSSubscriptionLimitExceededException.m */; };
-		B25A782B17694C6C0074158B /* SNSSubscriptionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F41294585C00376534 /* SNSSubscriptionUnmarshaller.m */; };
-		B25A782C17694C6C0074158B /* SNSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F51294585C00376534 /* SNSTopic.m */; };
-		B25A782D17694C6C0074158B /* SNSTopicLimitExceededException.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F61294585C00376534 /* SNSTopicLimitExceededException.m */; };
-		B25A782E17694C6C0074158B /* SNSTopicUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F81294585C00376534 /* SNSTopicUnmarshaller.m */; };
-		B25A782F17694C6C0074158B /* SNSUnsubscribeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07F91294585C00376534 /* SNSUnsubscribeRequest.m */; };
-		B25A783017694C6C0074158B /* SNSUnsubscribeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07FB1294585C00376534 /* SNSUnsubscribeResponse.m */; };
-		B25A783117694C6C0074158B /* SNSUnsubscribeResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F07FC1294585C00376534 /* SNSUnsubscribeResponseUnmarshaller.m */; };
+		B25A780017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780A17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780B17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780C17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780D17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780E17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A780F17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781A17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781B17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781C17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781D17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781E17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A781F17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782A17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782B17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782C17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782D17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782E17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A782F17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A783017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A783117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A783217694C6C0074158B /* SimpleDBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D07CEC4A129B330B008FF534 /* SimpleDBRequest.m */; };
 		B25A783317694C6C0074158B /* AmazonDictionaryUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D01F6B0A12A3877C004A312D /* AmazonDictionaryUnmarshaller.m */; };
-		B25A783417694C6C0074158B /* SNSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDA6B312A45CB5004B18C0 /* SNSRequest.m */; };
+		B25A783417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A783517694C6C0074158B /* AmazonListUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EB72CB12A5E01A001EF2F8 /* AmazonListUnmarshaller.m */; };
 		B25A783617694C6C0074158B /* SimpleDBBatchDeleteAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D01995E512A72B0D00CB8012 /* SimpleDBBatchDeleteAttributesRequest.m */; };
 		B25A783717694C6C0074158B /* SimpleDBBatchDeleteAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D01995E712A72B0D00CB8012 /* SimpleDBBatchDeleteAttributesResponse.m */; };
@@ -4341,7 +4341,7 @@
 		B25A787217694C6C0074158B /* AmazonValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9CFD813380FFB006BE1FE /* AmazonValueUnmarshaller.m */; };
 		B25A787317694C6C0074158B /* AmazonBoolValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D01158E213395C4F00E35D3D /* AmazonBoolValueUnmarshaller.m */; };
 		B25A787417694C6C0074158B /* CloudWatchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EA801344E793007721F9 /* CloudWatchResponse.m */; };
-		B25A787517694C6C0074158B /* SNSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EA841344E7AA007721F9 /* SNSResponse.m */; };
+		B25A787517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A787617694C6C0074158B /* SimpleDBResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EA861344E7B5007721F9 /* SimpleDBResponse.m */; };
 		B25A787717694C6C0074158B /* AmazonElasticLoadBalancingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D018B5601358B634002D7716 /* AmazonElasticLoadBalancingClient.m */; };
 		B25A787817694C6C0074158B /* ElasticLoadBalancingAppCookieStickinessPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D018B5621358B634002D7716 /* ElasticLoadBalancingAppCookieStickinessPolicy.m */; };
@@ -4427,7 +4427,7 @@
 		B25A78C817694C6C0074158B /* SimpleDBResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E647D11371BB2D0096DF65 /* SimpleDBResponseUnmarshaller.m */; };
 		B25A78C917694C6C0074158B /* ElasticLoadBalancingResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C863A1371D62700F08418 /* ElasticLoadBalancingResponseUnmarshaller.m */; };
 		B25A78CA17694C6C0074158B /* CloudWatchResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C86401371D66200F08418 /* CloudWatchResponseUnmarshaller.m */; };
-		B25A78CB17694C6C0074158B /* SNSResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C86441371D68E00F08418 /* SNSResponseUnmarshaller.m */; };
+		B25A78CB17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A78CC17694C6C0074158B /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F18F6137730C200891BD9 /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.m */; };
 		B25A78CD17694C6C0074158B /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F18F7137730C200891BD9 /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.m */; };
 		B25A78CE17694C6C0074158B /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F18F8137730C200891BD9 /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.m */; };
@@ -4454,19 +4454,19 @@
 		B25A78E317694C6C0074158B /* CloudWatchListMetricsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F192B1377310500891BD9 /* CloudWatchListMetricsRequestMarshaller.m */; };
 		B25A78E417694C6C0074158B /* CloudWatchPutMetricAlarmRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F192C1377310500891BD9 /* CloudWatchPutMetricAlarmRequestMarshaller.m */; };
 		B25A78E517694C6C0074158B /* CloudWatchSetAlarmStateRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F192D1377310500891BD9 /* CloudWatchSetAlarmStateRequestMarshaller.m */; };
-		B25A78E617694C6C0074158B /* SNSAddPermissionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19381377312E00891BD9 /* SNSAddPermissionRequestMarshaller.m */; };
-		B25A78E717694C6C0074158B /* SNSConfirmSubscriptionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19391377312E00891BD9 /* SNSConfirmSubscriptionRequestMarshaller.m */; };
-		B25A78E817694C6C0074158B /* SNSCreateTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193A1377312E00891BD9 /* SNSCreateTopicRequestMarshaller.m */; };
-		B25A78E917694C6C0074158B /* SNSDeleteTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193B1377312E00891BD9 /* SNSDeleteTopicRequestMarshaller.m */; };
-		B25A78EA17694C6C0074158B /* SNSGetTopicAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193C1377312E00891BD9 /* SNSGetTopicAttributesRequestMarshaller.m */; };
-		B25A78EB17694C6C0074158B /* SNSListSubscriptionsByTopicRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193D1377312E00891BD9 /* SNSListSubscriptionsByTopicRequestMarshaller.m */; };
-		B25A78EC17694C6C0074158B /* SNSListSubscriptionsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193E1377312E00891BD9 /* SNSListSubscriptionsRequestMarshaller.m */; };
-		B25A78ED17694C6C0074158B /* SNSListTopicsRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F193F1377312E00891BD9 /* SNSListTopicsRequestMarshaller.m */; };
-		B25A78EE17694C6C0074158B /* SNSPublishRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19401377312E00891BD9 /* SNSPublishRequestMarshaller.m */; };
-		B25A78EF17694C6C0074158B /* SNSRemovePermissionRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19411377312E00891BD9 /* SNSRemovePermissionRequestMarshaller.m */; };
-		B25A78F017694C6C0074158B /* SNSSetTopicAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19421377312E00891BD9 /* SNSSetTopicAttributesRequestMarshaller.m */; };
-		B25A78F117694C6C0074158B /* SNSSubscribeRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19431377312E00891BD9 /* SNSSubscribeRequestMarshaller.m */; };
-		B25A78F217694C6C0074158B /* SNSUnsubscribeRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19441377312E00891BD9 /* SNSUnsubscribeRequestMarshaller.m */; };
+		B25A78E617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78E717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78E817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78E917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78EA17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78EB17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78EC17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78ED17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78EE17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78EF17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78F017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78F117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A78F217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A78F317694C6C0074158B /* SimpleDBBatchDeleteAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19521377315200891BD9 /* SimpleDBBatchDeleteAttributesRequestMarshaller.m */; };
 		B25A78F417694C6C0074158B /* SimpleDBBatchPutAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19531377315200891BD9 /* SimpleDBBatchPutAttributesRequestMarshaller.m */; };
 		B25A78F517694C6C0074158B /* SimpleDBCreateDomainRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D03F19541377315200891BD9 /* SimpleDBCreateDomainRequestMarshaller.m */; };
@@ -4540,14 +4540,14 @@
 		B25A793917694C6C0074158B /* ElasticLoadBalancingInvalidSecurityGroupException.m in Sources */ = {isa = PBXBuildFile; fileRef = D028679E14BFB87400184AC6 /* ElasticLoadBalancingInvalidSecurityGroupException.m */; };
 		B25A793A17694C6C0074158B /* ElasticLoadBalancingInvalidSubnetException.m in Sources */ = {isa = PBXBuildFile; fileRef = D028679F14BFB87400184AC6 /* ElasticLoadBalancingInvalidSubnetException.m */; };
 		B25A793B17694C6C0074158B /* ElasticLoadBalancingSubnetNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867A014BFB87400184AC6 /* ElasticLoadBalancingSubnetNotFoundException.m */; };
-		B25A793C17694C6C0074158B /* SNSGetSubscriptionAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B014BFB8A100184AC6 /* SNSGetSubscriptionAttributesRequest.m */; };
-		B25A793D17694C6C0074158B /* SNSGetSubscriptionAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B114BFB8A100184AC6 /* SNSGetSubscriptionAttributesRequestMarshaller.m */; };
-		B25A793E17694C6C0074158B /* SNSGetSubscriptionAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B214BFB8A100184AC6 /* SNSGetSubscriptionAttributesResponse.m */; };
-		B25A793F17694C6C0074158B /* SNSGetSubscriptionAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B314BFB8A100184AC6 /* SNSGetSubscriptionAttributesResponseUnmarshaller.m */; };
-		B25A794017694C6C0074158B /* SNSSetSubscriptionAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B414BFB8A100184AC6 /* SNSSetSubscriptionAttributesRequest.m */; };
-		B25A794117694C6C0074158B /* SNSSetSubscriptionAttributesRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B514BFB8A100184AC6 /* SNSSetSubscriptionAttributesRequestMarshaller.m */; };
-		B25A794217694C6C0074158B /* SNSSetSubscriptionAttributesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B614BFB8A100184AC6 /* SNSSetSubscriptionAttributesResponse.m */; };
-		B25A794317694C6C0074158B /* SNSSetSubscriptionAttributesResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = D02867B714BFB8A100184AC6 /* SNSSetSubscriptionAttributesResponseUnmarshaller.m */; };
+		B25A793C17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A793D17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A793E17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A793F17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A794017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A794117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A794217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A794317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A794417694C6C0074158B /* AmazonAbstractWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD5D114FC0EF6009BA65E /* AmazonAbstractWebServiceClient.m */; };
 		B25A794517694C6C0074158B /* AmazonSESClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38085F8315AC8F7B00D2D529 /* AmazonSESClient.m */; };
 		B25A794617694C6C0074158B /* SESBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 38085F8515AC8F7B00D2D529 /* SESBody.m */; };
@@ -5716,40 +5716,40 @@
 		B25A7DD117694C6C0074158B /* DynamoDBUpdateTableResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45BDB3170A57C100D1550D /* DynamoDBUpdateTableResponseUnmarshaller.m */; };
 		B25A7DD217694C6C0074158B /* DynamoDBWriteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45BDB4170A57C100D1550D /* DynamoDBWriteRequest.m */; };
 		B25A7DD317694C6C0074158B /* DynamoDBWriteRequestUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45BDB5170A57C100D1550D /* DynamoDBWriteRequestUnmarshaller.m */; };
-		B25A7DD417694C6C0074158B /* AmazonSecurityTokenServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB324172719F4006AFCBC /* AmazonSecurityTokenServiceClient.m */; };
-		B25A7DD517694C6C0074158B /* AmazonSTSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB325172719F4006AFCBC /* AmazonSTSCredentialsProvider.m */; };
-		B25A7DD617694C6C0074158B /* SecurityTokenServiceAssumedRoleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB327172719F4006AFCBC /* SecurityTokenServiceAssumedRoleUser.m */; };
-		B25A7DD717694C6C0074158B /* SecurityTokenServiceAssumedRoleUserUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB328172719F4006AFCBC /* SecurityTokenServiceAssumedRoleUserUnmarshaller.m */; };
-		B25A7DD817694C6C0074158B /* SecurityTokenServiceAssumeRoleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB329172719F4006AFCBC /* SecurityTokenServiceAssumeRoleRequest.m */; };
-		B25A7DD917694C6C0074158B /* SecurityTokenServiceAssumeRoleRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32A172719F4006AFCBC /* SecurityTokenServiceAssumeRoleRequestMarshaller.m */; };
-		B25A7DDA17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32B172719F4006AFCBC /* SecurityTokenServiceAssumeRoleResponse.m */; };
-		B25A7DDB17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32C172719F4006AFCBC /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.m */; };
-		B25A7DDC17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32D172719F4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.m */; };
-		B25A7DDD17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32E172719F4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.m */; };
-		B25A7DDE17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB32F172719F4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.m */; };
-		B25A7DDF17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB330172719F4006AFCBC /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.m */; };
-		B25A7DE017694C6C0074158B /* SecurityTokenServiceCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB331172719F4006AFCBC /* SecurityTokenServiceCredentials.m */; };
-		B25A7DE117694C6C0074158B /* SecurityTokenServiceCredentialsUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB332172719F4006AFCBC /* SecurityTokenServiceCredentialsUnmarshaller.m */; };
-		B25A7DE217694C6C0074158B /* SecurityTokenServiceExpiredTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB333172719F4006AFCBC /* SecurityTokenServiceExpiredTokenException.m */; };
-		B25A7DE317694C6C0074158B /* SecurityTokenServiceFederatedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB334172719F4006AFCBC /* SecurityTokenServiceFederatedUser.m */; };
-		B25A7DE417694C6C0074158B /* SecurityTokenServiceFederatedUserUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB335172719F4006AFCBC /* SecurityTokenServiceFederatedUserUnmarshaller.m */; };
-		B25A7DE517694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB336172719F4006AFCBC /* SecurityTokenServiceGetFederationTokenRequest.m */; };
-		B25A7DE617694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB337172719F4006AFCBC /* SecurityTokenServiceGetFederationTokenRequestMarshaller.m */; };
-		B25A7DE717694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB338172719F4006AFCBC /* SecurityTokenServiceGetFederationTokenResponse.m */; };
-		B25A7DE817694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB339172719F4006AFCBC /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.m */; };
-		B25A7DE917694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33A172719F4006AFCBC /* SecurityTokenServiceGetSessionTokenRequest.m */; };
-		B25A7DEA17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequestMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33B172719F4006AFCBC /* SecurityTokenServiceGetSessionTokenRequestMarshaller.m */; };
-		B25A7DEB17694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33C172719F4006AFCBC /* SecurityTokenServiceGetSessionTokenResponse.m */; };
-		B25A7DEC17694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33D172719F4006AFCBC /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.m */; };
-		B25A7DED17694C6C0074158B /* SecurityTokenServiceIDPCommunicationErrorException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33E172719F4006AFCBC /* SecurityTokenServiceIDPCommunicationErrorException.m */; };
-		B25A7DEE17694C6C0074158B /* SecurityTokenServiceIDPRejectedClaimException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB33F172719F4006AFCBC /* SecurityTokenServiceIDPRejectedClaimException.m */; };
-		B25A7DEF17694C6C0074158B /* SecurityTokenServiceInvalidIdentityTokenException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB340172719F4006AFCBC /* SecurityTokenServiceInvalidIdentityTokenException.m */; };
-		B25A7DF017694C6C0074158B /* SecurityTokenServiceMalformedPolicyDocumentException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB341172719F4006AFCBC /* SecurityTokenServiceMalformedPolicyDocumentException.m */; };
-		B25A7DF117694C6C0074158B /* SecurityTokenServicePackedPolicyTooLargeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB342172719F4006AFCBC /* SecurityTokenServicePackedPolicyTooLargeException.m */; };
-		B25A7DF217694C6C0074158B /* SecurityTokenServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB343172719F4006AFCBC /* SecurityTokenServiceRequest.m */; };
-		B25A7DF317694C6C0074158B /* SecurityTokenServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB344172719F4006AFCBC /* SecurityTokenServiceResponse.m */; };
-		B25A7DF417694C6C0074158B /* SecurityTokenServiceResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB345172719F4006AFCBC /* SecurityTokenServiceResponseUnmarshaller.m */; };
-		B25A7DF517694C6C0074158B /* AmazonWIFCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 38862592173B132E00A038FF /* AmazonWIFCredentialsProvider.m */; };
+		B25A7DD417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DD517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DD617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DD717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DD817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DD917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDA17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDB17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDC17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDD17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDE17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DDF17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE617694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE717694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE817694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DE917694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DEA17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DEB17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DEC17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DED17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DEE17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DEF17694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF017694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF117694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF217694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF317694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF417694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B25A7DF517694C6C0074158B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B25A7DF717694C6C0074158B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96C1A9158BC2A70084D3CB /* MobileCoreServices.framework */; };
 		B25A7DF817694C6C0074158B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		C416BD1216BCA24A00B0290C /* EC2CopySnapshotRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C416BD0E16BCA24A00B0290C /* EC2CopySnapshotRequest.m */; };
@@ -13553,58 +13553,58 @@
 				B25A71B017694C6C0074158B /* SimpleDBSelectResponseUnmarshaller.h in Headers */,
 				B25A71B117694C6C0074158B /* SimpleDBTooManyRequestedAttributesException.h in Headers */,
 				B25A71B217694C6C0074158B /* SimpleDBUpdateCondition.h in Headers */,
-				B25A71B317694C6C0074158B /* AmazonSNSClient.h in Headers */,
-				B25A71B417694C6C0074158B /* SNSAddPermissionRequest.h in Headers */,
-				B25A71B517694C6C0074158B /* SNSAddPermissionResponse.h in Headers */,
-				B25A71B617694C6C0074158B /* SNSAddPermissionResponseUnmarshaller.h in Headers */,
-				B25A71B717694C6C0074158B /* SNSAuthorizationErrorException.h in Headers */,
-				B25A71B817694C6C0074158B /* SNSConfirmSubscriptionRequest.h in Headers */,
-				B25A71B917694C6C0074158B /* SNSConfirmSubscriptionResponse.h in Headers */,
-				B25A71BA17694C6C0074158B /* SNSConfirmSubscriptionResponseUnmarshaller.h in Headers */,
-				B25A71BB17694C6C0074158B /* SNSCreateTopicRequest.h in Headers */,
-				B25A71BC17694C6C0074158B /* SNSCreateTopicResponse.h in Headers */,
-				B25A71BD17694C6C0074158B /* SNSCreateTopicResponseUnmarshaller.h in Headers */,
-				B25A71BE17694C6C0074158B /* SNSDeleteTopicRequest.h in Headers */,
-				B25A71BF17694C6C0074158B /* SNSDeleteTopicResponse.h in Headers */,
-				B25A71C017694C6C0074158B /* SNSDeleteTopicResponseUnmarshaller.h in Headers */,
-				B25A71C117694C6C0074158B /* SNSGetTopicAttributesRequest.h in Headers */,
-				B25A71C217694C6C0074158B /* SNSGetTopicAttributesResponse.h in Headers */,
-				B25A71C317694C6C0074158B /* SNSGetTopicAttributesResponseUnmarshaller.h in Headers */,
-				B25A71C417694C6C0074158B /* SNSInternalErrorException.h in Headers */,
-				B25A71C517694C6C0074158B /* SNSInvalidParameterException.h in Headers */,
-				B25A71C617694C6C0074158B /* SNSListSubscriptionsByTopicRequest.h in Headers */,
-				B25A71C717694C6C0074158B /* SNSListSubscriptionsByTopicResponse.h in Headers */,
-				B25A71C817694C6C0074158B /* SNSListSubscriptionsByTopicResponseUnmarshaller.h in Headers */,
-				B25A71C917694C6C0074158B /* SNSListSubscriptionsRequest.h in Headers */,
-				B25A71CA17694C6C0074158B /* SNSListSubscriptionsResponse.h in Headers */,
-				B25A71CB17694C6C0074158B /* SNSListSubscriptionsResponseUnmarshaller.h in Headers */,
-				B25A71CC17694C6C0074158B /* SNSListTopicsRequest.h in Headers */,
-				B25A71CD17694C6C0074158B /* SNSListTopicsResponse.h in Headers */,
-				B25A71CE17694C6C0074158B /* SNSListTopicsResponseUnmarshaller.h in Headers */,
-				B25A71CF17694C6C0074158B /* SNSNotFoundException.h in Headers */,
-				B25A71D017694C6C0074158B /* SNSPublishRequest.h in Headers */,
-				B25A71D117694C6C0074158B /* SNSPublishResponse.h in Headers */,
-				B25A71D217694C6C0074158B /* SNSPublishResponseUnmarshaller.h in Headers */,
-				B25A71D317694C6C0074158B /* SNSRemovePermissionRequest.h in Headers */,
-				B25A71D417694C6C0074158B /* SNSRemovePermissionResponse.h in Headers */,
-				B25A71D517694C6C0074158B /* SNSRemovePermissionResponseUnmarshaller.h in Headers */,
-				B25A71D617694C6C0074158B /* SNSSetTopicAttributesRequest.h in Headers */,
-				B25A71D717694C6C0074158B /* SNSSetTopicAttributesResponse.h in Headers */,
-				B25A71D817694C6C0074158B /* SNSSetTopicAttributesResponseUnmarshaller.h in Headers */,
-				B25A71D917694C6C0074158B /* SNSSubscribeRequest.h in Headers */,
-				B25A71DA17694C6C0074158B /* SNSSubscribeResponse.h in Headers */,
-				B25A71DB17694C6C0074158B /* SNSSubscribeResponseUnmarshaller.h in Headers */,
-				B25A71DC17694C6C0074158B /* SNSSubscription.h in Headers */,
-				B25A71DD17694C6C0074158B /* SNSSubscriptionLimitExceededException.h in Headers */,
-				B25A71DE17694C6C0074158B /* SNSSubscriptionUnmarshaller.h in Headers */,
-				B25A71DF17694C6C0074158B /* SNSTopic.h in Headers */,
-				B25A71E017694C6C0074158B /* SNSTopicLimitExceededException.h in Headers */,
-				B25A71E117694C6C0074158B /* SNSTopicUnmarshaller.h in Headers */,
-				B25A71E217694C6C0074158B /* SNSUnsubscribeRequest.h in Headers */,
-				B25A71E317694C6C0074158B /* SNSUnsubscribeResponse.h in Headers */,
-				B25A71E417694C6C0074158B /* SNSUnsubscribeResponseUnmarshaller.h in Headers */,
+				B25A71B317694C6C0074158B /* (null) in Headers */,
+				B25A71B417694C6C0074158B /* (null) in Headers */,
+				B25A71B517694C6C0074158B /* (null) in Headers */,
+				B25A71B617694C6C0074158B /* (null) in Headers */,
+				B25A71B717694C6C0074158B /* (null) in Headers */,
+				B25A71B817694C6C0074158B /* (null) in Headers */,
+				B25A71B917694C6C0074158B /* (null) in Headers */,
+				B25A71BA17694C6C0074158B /* (null) in Headers */,
+				B25A71BB17694C6C0074158B /* (null) in Headers */,
+				B25A71BC17694C6C0074158B /* (null) in Headers */,
+				B25A71BD17694C6C0074158B /* (null) in Headers */,
+				B25A71BE17694C6C0074158B /* (null) in Headers */,
+				B25A71BF17694C6C0074158B /* (null) in Headers */,
+				B25A71C017694C6C0074158B /* (null) in Headers */,
+				B25A71C117694C6C0074158B /* (null) in Headers */,
+				B25A71C217694C6C0074158B /* (null) in Headers */,
+				B25A71C317694C6C0074158B /* (null) in Headers */,
+				B25A71C417694C6C0074158B /* (null) in Headers */,
+				B25A71C517694C6C0074158B /* (null) in Headers */,
+				B25A71C617694C6C0074158B /* (null) in Headers */,
+				B25A71C717694C6C0074158B /* (null) in Headers */,
+				B25A71C817694C6C0074158B /* (null) in Headers */,
+				B25A71C917694C6C0074158B /* (null) in Headers */,
+				B25A71CA17694C6C0074158B /* (null) in Headers */,
+				B25A71CB17694C6C0074158B /* (null) in Headers */,
+				B25A71CC17694C6C0074158B /* (null) in Headers */,
+				B25A71CD17694C6C0074158B /* (null) in Headers */,
+				B25A71CE17694C6C0074158B /* (null) in Headers */,
+				B25A71CF17694C6C0074158B /* (null) in Headers */,
+				B25A71D017694C6C0074158B /* (null) in Headers */,
+				B25A71D117694C6C0074158B /* (null) in Headers */,
+				B25A71D217694C6C0074158B /* (null) in Headers */,
+				B25A71D317694C6C0074158B /* (null) in Headers */,
+				B25A71D417694C6C0074158B /* (null) in Headers */,
+				B25A71D517694C6C0074158B /* (null) in Headers */,
+				B25A71D617694C6C0074158B /* (null) in Headers */,
+				B25A71D717694C6C0074158B /* (null) in Headers */,
+				B25A71D817694C6C0074158B /* (null) in Headers */,
+				B25A71D917694C6C0074158B /* (null) in Headers */,
+				B25A71DA17694C6C0074158B /* (null) in Headers */,
+				B25A71DB17694C6C0074158B /* (null) in Headers */,
+				B25A71DC17694C6C0074158B /* (null) in Headers */,
+				B25A71DD17694C6C0074158B /* (null) in Headers */,
+				B25A71DE17694C6C0074158B /* (null) in Headers */,
+				B25A71DF17694C6C0074158B /* (null) in Headers */,
+				B25A71E017694C6C0074158B /* (null) in Headers */,
+				B25A71E117694C6C0074158B /* (null) in Headers */,
+				B25A71E217694C6C0074158B /* (null) in Headers */,
+				B25A71E317694C6C0074158B /* (null) in Headers */,
+				B25A71E417694C6C0074158B /* (null) in Headers */,
 				B25A71E517694C6C0074158B /* SimpleDBRequest.h in Headers */,
-				B25A71E617694C6C0074158B /* SNSRequest.h in Headers */,
+				B25A71E617694C6C0074158B /* (null) in Headers */,
 				B25A71E717694C6C0074158B /* SimpleDBBatchDeleteAttributesRequest.h in Headers */,
 				B25A71E817694C6C0074158B /* SimpleDBBatchDeleteAttributesResponse.h in Headers */,
 				B25A71E917694C6C0074158B /* SimpleDBBatchDeleteAttributesResponseUnmarshaller.h in Headers */,
@@ -13661,7 +13661,7 @@
 				B25A721C17694C6C0074158B /* CloudWatchSetAlarmStateResponseUnmarshaller.h in Headers */,
 				B25A721D17694C6C0074158B /* CloudWatchRequest.h in Headers */,
 				B25A721E17694C6C0074158B /* CloudWatchResponse.h in Headers */,
-				B25A721F17694C6C0074158B /* SNSResponse.h in Headers */,
+				B25A721F17694C6C0074158B /* (null) in Headers */,
 				B25A722017694C6C0074158B /* SimpleDBResponse.h in Headers */,
 				B25A722117694C6C0074158B /* AmazonElasticLoadBalancingClient.h in Headers */,
 				B25A722217694C6C0074158B /* ElasticLoadBalancingAppCookieStickinessPolicy.h in Headers */,
@@ -13746,7 +13746,7 @@
 				B25A727117694C6C0074158B /* SimpleDBResponseUnmarshaller.h in Headers */,
 				B25A727217694C6C0074158B /* ElasticLoadBalancingResponseUnmarshaller.h in Headers */,
 				B25A727317694C6C0074158B /* CloudWatchResponseUnmarshaller.h in Headers */,
-				B25A727417694C6C0074158B /* SNSResponseUnmarshaller.h in Headers */,
+				B25A727417694C6C0074158B /* (null) in Headers */,
 				B25A727517694C6C0074158B /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.h in Headers */,
 				B25A727617694C6C0074158B /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.h in Headers */,
 				B25A727717694C6C0074158B /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.h in Headers */,
@@ -13773,19 +13773,19 @@
 				B25A728C17694C6C0074158B /* CloudWatchListMetricsRequestMarshaller.h in Headers */,
 				B25A728D17694C6C0074158B /* CloudWatchPutMetricAlarmRequestMarshaller.h in Headers */,
 				B25A728E17694C6C0074158B /* CloudWatchSetAlarmStateRequestMarshaller.h in Headers */,
-				B25A728F17694C6C0074158B /* SNSAddPermissionRequestMarshaller.h in Headers */,
-				B25A729017694C6C0074158B /* SNSConfirmSubscriptionRequestMarshaller.h in Headers */,
-				B25A729117694C6C0074158B /* SNSCreateTopicRequestMarshaller.h in Headers */,
-				B25A729217694C6C0074158B /* SNSDeleteTopicRequestMarshaller.h in Headers */,
-				B25A729317694C6C0074158B /* SNSGetTopicAttributesRequestMarshaller.h in Headers */,
-				B25A729417694C6C0074158B /* SNSListSubscriptionsByTopicRequestMarshaller.h in Headers */,
-				B25A729517694C6C0074158B /* SNSListSubscriptionsRequestMarshaller.h in Headers */,
-				B25A729617694C6C0074158B /* SNSListTopicsRequestMarshaller.h in Headers */,
-				B25A729717694C6C0074158B /* SNSPublishRequestMarshaller.h in Headers */,
-				B25A729817694C6C0074158B /* SNSRemovePermissionRequestMarshaller.h in Headers */,
-				B25A729917694C6C0074158B /* SNSSetTopicAttributesRequestMarshaller.h in Headers */,
-				B25A729A17694C6C0074158B /* SNSSubscribeRequestMarshaller.h in Headers */,
-				B25A729B17694C6C0074158B /* SNSUnsubscribeRequestMarshaller.h in Headers */,
+				B25A728F17694C6C0074158B /* (null) in Headers */,
+				B25A729017694C6C0074158B /* (null) in Headers */,
+				B25A729117694C6C0074158B /* (null) in Headers */,
+				B25A729217694C6C0074158B /* (null) in Headers */,
+				B25A729317694C6C0074158B /* (null) in Headers */,
+				B25A729417694C6C0074158B /* (null) in Headers */,
+				B25A729517694C6C0074158B /* (null) in Headers */,
+				B25A729617694C6C0074158B /* (null) in Headers */,
+				B25A729717694C6C0074158B /* (null) in Headers */,
+				B25A729817694C6C0074158B /* (null) in Headers */,
+				B25A729917694C6C0074158B /* (null) in Headers */,
+				B25A729A17694C6C0074158B /* (null) in Headers */,
+				B25A729B17694C6C0074158B /* (null) in Headers */,
 				B25A729C17694C6C0074158B /* SimpleDBBatchDeleteAttributesRequestMarshaller.h in Headers */,
 				B25A729D17694C6C0074158B /* SimpleDBBatchPutAttributesRequestMarshaller.h in Headers */,
 				B25A729E17694C6C0074158B /* SimpleDBCreateDomainRequestMarshaller.h in Headers */,
@@ -13853,14 +13853,14 @@
 				B25A72DC17694C6C0074158B /* ElasticLoadBalancingInvalidSecurityGroupException.h in Headers */,
 				B25A72DD17694C6C0074158B /* ElasticLoadBalancingInvalidSubnetException.h in Headers */,
 				B25A72DE17694C6C0074158B /* ElasticLoadBalancingSubnetNotFoundException.h in Headers */,
-				B25A72DF17694C6C0074158B /* SNSGetSubscriptionAttributesRequest.h in Headers */,
-				B25A72E017694C6C0074158B /* SNSGetSubscriptionAttributesRequestMarshaller.h in Headers */,
-				B25A72E117694C6C0074158B /* SNSGetSubscriptionAttributesResponse.h in Headers */,
-				B25A72E217694C6C0074158B /* SNSGetSubscriptionAttributesResponseUnmarshaller.h in Headers */,
-				B25A72E317694C6C0074158B /* SNSSetSubscriptionAttributesRequest.h in Headers */,
-				B25A72E417694C6C0074158B /* SNSSetSubscriptionAttributesRequestMarshaller.h in Headers */,
-				B25A72E517694C6C0074158B /* SNSSetSubscriptionAttributesResponse.h in Headers */,
-				B25A72E617694C6C0074158B /* SNSSetSubscriptionAttributesResponseUnmarshaller.h in Headers */,
+				B25A72DF17694C6C0074158B /* (null) in Headers */,
+				B25A72E017694C6C0074158B /* (null) in Headers */,
+				B25A72E117694C6C0074158B /* (null) in Headers */,
+				B25A72E217694C6C0074158B /* (null) in Headers */,
+				B25A72E317694C6C0074158B /* (null) in Headers */,
+				B25A72E417694C6C0074158B /* (null) in Headers */,
+				B25A72E517694C6C0074158B /* (null) in Headers */,
+				B25A72E617694C6C0074158B /* (null) in Headers */,
 				B25A72E717694C6C0074158B /* CloudWatchMetricDatum.h in Headers */,
 				B25A72E817694C6C0074158B /* CloudWatchPutMetricDataRequest.h in Headers */,
 				B25A72E917694C6C0074158B /* CloudWatchPutMetricDataRequestMarshaller.h in Headers */,
@@ -15062,41 +15062,41 @@
 				B25A779517694C6C0074158B /* DynamoDBWebServiceClient.h in Headers */,
 				B25A779617694C6C0074158B /* DynamoDBWriteRequest.h in Headers */,
 				B25A779717694C6C0074158B /* DynamoDBWriteRequestUnmarshaller.h in Headers */,
-				B25A779817694C6C0074158B /* AmazonSecurityTokenServiceClient.h in Headers */,
-				B25A779917694C6C0074158B /* AmazonSTSCredentialsProvider.h in Headers */,
-				B25A779A17694C6C0074158B /* AWSSecurityTokenService.h in Headers */,
-				B25A779B17694C6C0074158B /* SecurityTokenServiceAssumedRoleUser.h in Headers */,
-				B25A779C17694C6C0074158B /* SecurityTokenServiceAssumedRoleUserUnmarshaller.h in Headers */,
-				B25A779D17694C6C0074158B /* SecurityTokenServiceAssumeRoleRequest.h in Headers */,
-				B25A779E17694C6C0074158B /* SecurityTokenServiceAssumeRoleRequestMarshaller.h in Headers */,
-				B25A779F17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponse.h in Headers */,
-				B25A77A017694C6C0074158B /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.h in Headers */,
-				B25A77A117694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.h in Headers */,
-				B25A77A217694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.h in Headers */,
-				B25A77A317694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.h in Headers */,
-				B25A77A417694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.h in Headers */,
-				B25A77A517694C6C0074158B /* SecurityTokenServiceCredentials.h in Headers */,
-				B25A77A617694C6C0074158B /* SecurityTokenServiceCredentialsUnmarshaller.h in Headers */,
-				B25A77A717694C6C0074158B /* SecurityTokenServiceExpiredTokenException.h in Headers */,
-				B25A77A817694C6C0074158B /* SecurityTokenServiceFederatedUser.h in Headers */,
-				B25A77A917694C6C0074158B /* SecurityTokenServiceFederatedUserUnmarshaller.h in Headers */,
-				B25A77AA17694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequest.h in Headers */,
-				B25A77AB17694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequestMarshaller.h in Headers */,
-				B25A77AC17694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponse.h in Headers */,
-				B25A77AD17694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.h in Headers */,
-				B25A77AE17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequest.h in Headers */,
-				B25A77AF17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequestMarshaller.h in Headers */,
-				B25A77B017694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponse.h in Headers */,
-				B25A77B117694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.h in Headers */,
-				B25A77B217694C6C0074158B /* SecurityTokenServiceIDPCommunicationErrorException.h in Headers */,
-				B25A77B317694C6C0074158B /* SecurityTokenServiceIDPRejectedClaimException.h in Headers */,
-				B25A77B417694C6C0074158B /* SecurityTokenServiceInvalidIdentityTokenException.h in Headers */,
-				B25A77B517694C6C0074158B /* SecurityTokenServiceMalformedPolicyDocumentException.h in Headers */,
-				B25A77B617694C6C0074158B /* SecurityTokenServicePackedPolicyTooLargeException.h in Headers */,
-				B25A77B717694C6C0074158B /* SecurityTokenServiceRequest.h in Headers */,
-				B25A77B817694C6C0074158B /* SecurityTokenServiceResponse.h in Headers */,
-				B25A77B917694C6C0074158B /* SecurityTokenServiceResponseUnmarshaller.h in Headers */,
-				B25A77BA17694C6C0074158B /* AmazonWIFCredentialsProvider.h in Headers */,
+				B25A779817694C6C0074158B /* (null) in Headers */,
+				B25A779917694C6C0074158B /* (null) in Headers */,
+				B25A779A17694C6C0074158B /* (null) in Headers */,
+				B25A779B17694C6C0074158B /* (null) in Headers */,
+				B25A779C17694C6C0074158B /* (null) in Headers */,
+				B25A779D17694C6C0074158B /* (null) in Headers */,
+				B25A779E17694C6C0074158B /* (null) in Headers */,
+				B25A779F17694C6C0074158B /* (null) in Headers */,
+				B25A77A017694C6C0074158B /* (null) in Headers */,
+				B25A77A117694C6C0074158B /* (null) in Headers */,
+				B25A77A217694C6C0074158B /* (null) in Headers */,
+				B25A77A317694C6C0074158B /* (null) in Headers */,
+				B25A77A417694C6C0074158B /* (null) in Headers */,
+				B25A77A517694C6C0074158B /* (null) in Headers */,
+				B25A77A617694C6C0074158B /* (null) in Headers */,
+				B25A77A717694C6C0074158B /* (null) in Headers */,
+				B25A77A817694C6C0074158B /* (null) in Headers */,
+				B25A77A917694C6C0074158B /* (null) in Headers */,
+				B25A77AA17694C6C0074158B /* (null) in Headers */,
+				B25A77AB17694C6C0074158B /* (null) in Headers */,
+				B25A77AC17694C6C0074158B /* (null) in Headers */,
+				B25A77AD17694C6C0074158B /* (null) in Headers */,
+				B25A77AE17694C6C0074158B /* (null) in Headers */,
+				B25A77AF17694C6C0074158B /* (null) in Headers */,
+				B25A77B017694C6C0074158B /* (null) in Headers */,
+				B25A77B117694C6C0074158B /* (null) in Headers */,
+				B25A77B217694C6C0074158B /* (null) in Headers */,
+				B25A77B317694C6C0074158B /* (null) in Headers */,
+				B25A77B417694C6C0074158B /* (null) in Headers */,
+				B25A77B517694C6C0074158B /* (null) in Headers */,
+				B25A77B617694C6C0074158B /* (null) in Headers */,
+				B25A77B717694C6C0074158B /* (null) in Headers */,
+				B25A77B817694C6C0074158B /* (null) in Headers */,
+				B25A77B917694C6C0074158B /* (null) in Headers */,
+				B25A77BA17694C6C0074158B /* (null) in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16915,59 +16915,59 @@
 				B25A77FD17694C6C0074158B /* SimpleDBTooManyRequestedAttributesException.m in Sources */,
 				B25A77FE17694C6C0074158B /* SimpleDBUpdateCondition.m in Sources */,
 				B25A77FF17694C6C0074158B /* AmazonServiceExceptionUnmarshaller.m in Sources */,
-				B25A780017694C6C0074158B /* AmazonSNSClient.m in Sources */,
-				B25A780117694C6C0074158B /* SNSAddPermissionRequest.m in Sources */,
-				B25A780217694C6C0074158B /* SNSAddPermissionResponse.m in Sources */,
-				B25A780317694C6C0074158B /* SNSAddPermissionResponseUnmarshaller.m in Sources */,
-				B25A780417694C6C0074158B /* SNSAuthorizationErrorException.m in Sources */,
-				B25A780517694C6C0074158B /* SNSConfirmSubscriptionRequest.m in Sources */,
-				B25A780617694C6C0074158B /* SNSConfirmSubscriptionResponse.m in Sources */,
-				B25A780717694C6C0074158B /* SNSConfirmSubscriptionResponseUnmarshaller.m in Sources */,
-				B25A780817694C6C0074158B /* SNSCreateTopicRequest.m in Sources */,
-				B25A780917694C6C0074158B /* SNSCreateTopicResponse.m in Sources */,
-				B25A780A17694C6C0074158B /* SNSCreateTopicResponseUnmarshaller.m in Sources */,
-				B25A780B17694C6C0074158B /* SNSDeleteTopicRequest.m in Sources */,
-				B25A780C17694C6C0074158B /* SNSDeleteTopicResponse.m in Sources */,
-				B25A780D17694C6C0074158B /* SNSDeleteTopicResponseUnmarshaller.m in Sources */,
-				B25A780E17694C6C0074158B /* SNSGetTopicAttributesRequest.m in Sources */,
-				B25A780F17694C6C0074158B /* SNSGetTopicAttributesResponse.m in Sources */,
-				B25A781017694C6C0074158B /* SNSGetTopicAttributesResponseUnmarshaller.m in Sources */,
-				B25A781117694C6C0074158B /* SNSInternalErrorException.m in Sources */,
-				B25A781217694C6C0074158B /* SNSInvalidParameterException.m in Sources */,
-				B25A781317694C6C0074158B /* SNSListSubscriptionsByTopicRequest.m in Sources */,
-				B25A781417694C6C0074158B /* SNSListSubscriptionsByTopicResponse.m in Sources */,
-				B25A781517694C6C0074158B /* SNSListSubscriptionsByTopicResponseUnmarshaller.m in Sources */,
-				B25A781617694C6C0074158B /* SNSListSubscriptionsRequest.m in Sources */,
-				B25A781717694C6C0074158B /* SNSListSubscriptionsResponse.m in Sources */,
-				B25A781817694C6C0074158B /* SNSListSubscriptionsResponseUnmarshaller.m in Sources */,
-				B25A781917694C6C0074158B /* SNSListTopicsRequest.m in Sources */,
-				B25A781A17694C6C0074158B /* SNSListTopicsResponse.m in Sources */,
-				B25A781B17694C6C0074158B /* SNSListTopicsResponseUnmarshaller.m in Sources */,
-				B25A781C17694C6C0074158B /* SNSNotFoundException.m in Sources */,
-				B25A781D17694C6C0074158B /* SNSPublishRequest.m in Sources */,
-				B25A781E17694C6C0074158B /* SNSPublishResponse.m in Sources */,
-				B25A781F17694C6C0074158B /* SNSPublishResponseUnmarshaller.m in Sources */,
-				B25A782017694C6C0074158B /* SNSRemovePermissionRequest.m in Sources */,
-				B25A782117694C6C0074158B /* SNSRemovePermissionResponse.m in Sources */,
-				B25A782217694C6C0074158B /* SNSRemovePermissionResponseUnmarshaller.m in Sources */,
-				B25A782317694C6C0074158B /* SNSSetTopicAttributesRequest.m in Sources */,
-				B25A782417694C6C0074158B /* SNSSetTopicAttributesResponse.m in Sources */,
-				B25A782517694C6C0074158B /* SNSSetTopicAttributesResponseUnmarshaller.m in Sources */,
-				B25A782617694C6C0074158B /* SNSSubscribeRequest.m in Sources */,
-				B25A782717694C6C0074158B /* SNSSubscribeResponse.m in Sources */,
-				B25A782817694C6C0074158B /* SNSSubscribeResponseUnmarshaller.m in Sources */,
-				B25A782917694C6C0074158B /* SNSSubscription.m in Sources */,
-				B25A782A17694C6C0074158B /* SNSSubscriptionLimitExceededException.m in Sources */,
-				B25A782B17694C6C0074158B /* SNSSubscriptionUnmarshaller.m in Sources */,
-				B25A782C17694C6C0074158B /* SNSTopic.m in Sources */,
-				B25A782D17694C6C0074158B /* SNSTopicLimitExceededException.m in Sources */,
-				B25A782E17694C6C0074158B /* SNSTopicUnmarshaller.m in Sources */,
-				B25A782F17694C6C0074158B /* SNSUnsubscribeRequest.m in Sources */,
-				B25A783017694C6C0074158B /* SNSUnsubscribeResponse.m in Sources */,
-				B25A783117694C6C0074158B /* SNSUnsubscribeResponseUnmarshaller.m in Sources */,
+				B25A780017694C6C0074158B /* (null) in Sources */,
+				B25A780117694C6C0074158B /* (null) in Sources */,
+				B25A780217694C6C0074158B /* (null) in Sources */,
+				B25A780317694C6C0074158B /* (null) in Sources */,
+				B25A780417694C6C0074158B /* (null) in Sources */,
+				B25A780517694C6C0074158B /* (null) in Sources */,
+				B25A780617694C6C0074158B /* (null) in Sources */,
+				B25A780717694C6C0074158B /* (null) in Sources */,
+				B25A780817694C6C0074158B /* (null) in Sources */,
+				B25A780917694C6C0074158B /* (null) in Sources */,
+				B25A780A17694C6C0074158B /* (null) in Sources */,
+				B25A780B17694C6C0074158B /* (null) in Sources */,
+				B25A780C17694C6C0074158B /* (null) in Sources */,
+				B25A780D17694C6C0074158B /* (null) in Sources */,
+				B25A780E17694C6C0074158B /* (null) in Sources */,
+				B25A780F17694C6C0074158B /* (null) in Sources */,
+				B25A781017694C6C0074158B /* (null) in Sources */,
+				B25A781117694C6C0074158B /* (null) in Sources */,
+				B25A781217694C6C0074158B /* (null) in Sources */,
+				B25A781317694C6C0074158B /* (null) in Sources */,
+				B25A781417694C6C0074158B /* (null) in Sources */,
+				B25A781517694C6C0074158B /* (null) in Sources */,
+				B25A781617694C6C0074158B /* (null) in Sources */,
+				B25A781717694C6C0074158B /* (null) in Sources */,
+				B25A781817694C6C0074158B /* (null) in Sources */,
+				B25A781917694C6C0074158B /* (null) in Sources */,
+				B25A781A17694C6C0074158B /* (null) in Sources */,
+				B25A781B17694C6C0074158B /* (null) in Sources */,
+				B25A781C17694C6C0074158B /* (null) in Sources */,
+				B25A781D17694C6C0074158B /* (null) in Sources */,
+				B25A781E17694C6C0074158B /* (null) in Sources */,
+				B25A781F17694C6C0074158B /* (null) in Sources */,
+				B25A782017694C6C0074158B /* (null) in Sources */,
+				B25A782117694C6C0074158B /* (null) in Sources */,
+				B25A782217694C6C0074158B /* (null) in Sources */,
+				B25A782317694C6C0074158B /* (null) in Sources */,
+				B25A782417694C6C0074158B /* (null) in Sources */,
+				B25A782517694C6C0074158B /* (null) in Sources */,
+				B25A782617694C6C0074158B /* (null) in Sources */,
+				B25A782717694C6C0074158B /* (null) in Sources */,
+				B25A782817694C6C0074158B /* (null) in Sources */,
+				B25A782917694C6C0074158B /* (null) in Sources */,
+				B25A782A17694C6C0074158B /* (null) in Sources */,
+				B25A782B17694C6C0074158B /* (null) in Sources */,
+				B25A782C17694C6C0074158B /* (null) in Sources */,
+				B25A782D17694C6C0074158B /* (null) in Sources */,
+				B25A782E17694C6C0074158B /* (null) in Sources */,
+				B25A782F17694C6C0074158B /* (null) in Sources */,
+				B25A783017694C6C0074158B /* (null) in Sources */,
+				B25A783117694C6C0074158B /* (null) in Sources */,
 				B25A783217694C6C0074158B /* SimpleDBRequest.m in Sources */,
 				B25A783317694C6C0074158B /* AmazonDictionaryUnmarshaller.m in Sources */,
-				B25A783417694C6C0074158B /* SNSRequest.m in Sources */,
+				B25A783417694C6C0074158B /* (null) in Sources */,
 				B25A783517694C6C0074158B /* AmazonListUnmarshaller.m in Sources */,
 				B25A783617694C6C0074158B /* SimpleDBBatchDeleteAttributesRequest.m in Sources */,
 				B25A783717694C6C0074158B /* SimpleDBBatchDeleteAttributesResponse.m in Sources */,
@@ -17032,7 +17032,7 @@
 				B25A787217694C6C0074158B /* AmazonValueUnmarshaller.m in Sources */,
 				B25A787317694C6C0074158B /* AmazonBoolValueUnmarshaller.m in Sources */,
 				B25A787417694C6C0074158B /* CloudWatchResponse.m in Sources */,
-				B25A787517694C6C0074158B /* SNSResponse.m in Sources */,
+				B25A787517694C6C0074158B /* (null) in Sources */,
 				B25A787617694C6C0074158B /* SimpleDBResponse.m in Sources */,
 				B25A787717694C6C0074158B /* AmazonElasticLoadBalancingClient.m in Sources */,
 				B25A787817694C6C0074158B /* ElasticLoadBalancingAppCookieStickinessPolicy.m in Sources */,
@@ -17118,7 +17118,7 @@
 				B25A78C817694C6C0074158B /* SimpleDBResponseUnmarshaller.m in Sources */,
 				B25A78C917694C6C0074158B /* ElasticLoadBalancingResponseUnmarshaller.m in Sources */,
 				B25A78CA17694C6C0074158B /* CloudWatchResponseUnmarshaller.m in Sources */,
-				B25A78CB17694C6C0074158B /* SNSResponseUnmarshaller.m in Sources */,
+				B25A78CB17694C6C0074158B /* (null) in Sources */,
 				B25A78CC17694C6C0074158B /* ElasticLoadBalancingConfigureHealthCheckRequestMarshaller.m in Sources */,
 				B25A78CD17694C6C0074158B /* ElasticLoadBalancingCreateAppCookieStickinessPolicyRequestMarshaller.m in Sources */,
 				B25A78CE17694C6C0074158B /* ElasticLoadBalancingCreateLBCookieStickinessPolicyRequestMarshaller.m in Sources */,
@@ -17145,19 +17145,19 @@
 				B25A78E317694C6C0074158B /* CloudWatchListMetricsRequestMarshaller.m in Sources */,
 				B25A78E417694C6C0074158B /* CloudWatchPutMetricAlarmRequestMarshaller.m in Sources */,
 				B25A78E517694C6C0074158B /* CloudWatchSetAlarmStateRequestMarshaller.m in Sources */,
-				B25A78E617694C6C0074158B /* SNSAddPermissionRequestMarshaller.m in Sources */,
-				B25A78E717694C6C0074158B /* SNSConfirmSubscriptionRequestMarshaller.m in Sources */,
-				B25A78E817694C6C0074158B /* SNSCreateTopicRequestMarshaller.m in Sources */,
-				B25A78E917694C6C0074158B /* SNSDeleteTopicRequestMarshaller.m in Sources */,
-				B25A78EA17694C6C0074158B /* SNSGetTopicAttributesRequestMarshaller.m in Sources */,
-				B25A78EB17694C6C0074158B /* SNSListSubscriptionsByTopicRequestMarshaller.m in Sources */,
-				B25A78EC17694C6C0074158B /* SNSListSubscriptionsRequestMarshaller.m in Sources */,
-				B25A78ED17694C6C0074158B /* SNSListTopicsRequestMarshaller.m in Sources */,
-				B25A78EE17694C6C0074158B /* SNSPublishRequestMarshaller.m in Sources */,
-				B25A78EF17694C6C0074158B /* SNSRemovePermissionRequestMarshaller.m in Sources */,
-				B25A78F017694C6C0074158B /* SNSSetTopicAttributesRequestMarshaller.m in Sources */,
-				B25A78F117694C6C0074158B /* SNSSubscribeRequestMarshaller.m in Sources */,
-				B25A78F217694C6C0074158B /* SNSUnsubscribeRequestMarshaller.m in Sources */,
+				B25A78E617694C6C0074158B /* (null) in Sources */,
+				B25A78E717694C6C0074158B /* (null) in Sources */,
+				B25A78E817694C6C0074158B /* (null) in Sources */,
+				B25A78E917694C6C0074158B /* (null) in Sources */,
+				B25A78EA17694C6C0074158B /* (null) in Sources */,
+				B25A78EB17694C6C0074158B /* (null) in Sources */,
+				B25A78EC17694C6C0074158B /* (null) in Sources */,
+				B25A78ED17694C6C0074158B /* (null) in Sources */,
+				B25A78EE17694C6C0074158B /* (null) in Sources */,
+				B25A78EF17694C6C0074158B /* (null) in Sources */,
+				B25A78F017694C6C0074158B /* (null) in Sources */,
+				B25A78F117694C6C0074158B /* (null) in Sources */,
+				B25A78F217694C6C0074158B /* (null) in Sources */,
 				B25A78F317694C6C0074158B /* SimpleDBBatchDeleteAttributesRequestMarshaller.m in Sources */,
 				B25A78F417694C6C0074158B /* SimpleDBBatchPutAttributesRequestMarshaller.m in Sources */,
 				B25A78F517694C6C0074158B /* SimpleDBCreateDomainRequestMarshaller.m in Sources */,
@@ -17231,14 +17231,14 @@
 				B25A793917694C6C0074158B /* ElasticLoadBalancingInvalidSecurityGroupException.m in Sources */,
 				B25A793A17694C6C0074158B /* ElasticLoadBalancingInvalidSubnetException.m in Sources */,
 				B25A793B17694C6C0074158B /* ElasticLoadBalancingSubnetNotFoundException.m in Sources */,
-				B25A793C17694C6C0074158B /* SNSGetSubscriptionAttributesRequest.m in Sources */,
-				B25A793D17694C6C0074158B /* SNSGetSubscriptionAttributesRequestMarshaller.m in Sources */,
-				B25A793E17694C6C0074158B /* SNSGetSubscriptionAttributesResponse.m in Sources */,
-				B25A793F17694C6C0074158B /* SNSGetSubscriptionAttributesResponseUnmarshaller.m in Sources */,
-				B25A794017694C6C0074158B /* SNSSetSubscriptionAttributesRequest.m in Sources */,
-				B25A794117694C6C0074158B /* SNSSetSubscriptionAttributesRequestMarshaller.m in Sources */,
-				B25A794217694C6C0074158B /* SNSSetSubscriptionAttributesResponse.m in Sources */,
-				B25A794317694C6C0074158B /* SNSSetSubscriptionAttributesResponseUnmarshaller.m in Sources */,
+				B25A793C17694C6C0074158B /* (null) in Sources */,
+				B25A793D17694C6C0074158B /* (null) in Sources */,
+				B25A793E17694C6C0074158B /* (null) in Sources */,
+				B25A793F17694C6C0074158B /* (null) in Sources */,
+				B25A794017694C6C0074158B /* (null) in Sources */,
+				B25A794117694C6C0074158B /* (null) in Sources */,
+				B25A794217694C6C0074158B /* (null) in Sources */,
+				B25A794317694C6C0074158B /* (null) in Sources */,
 				B25A794417694C6C0074158B /* AmazonAbstractWebServiceClient.m in Sources */,
 				B25A794517694C6C0074158B /* AmazonSESClient.m in Sources */,
 				B25A794617694C6C0074158B /* SESBody.m in Sources */,
@@ -18407,40 +18407,40 @@
 				B25A7DD117694C6C0074158B /* DynamoDBUpdateTableResponseUnmarshaller.m in Sources */,
 				B25A7DD217694C6C0074158B /* DynamoDBWriteRequest.m in Sources */,
 				B25A7DD317694C6C0074158B /* DynamoDBWriteRequestUnmarshaller.m in Sources */,
-				B25A7DD417694C6C0074158B /* AmazonSecurityTokenServiceClient.m in Sources */,
-				B25A7DD517694C6C0074158B /* AmazonSTSCredentialsProvider.m in Sources */,
-				B25A7DD617694C6C0074158B /* SecurityTokenServiceAssumedRoleUser.m in Sources */,
-				B25A7DD717694C6C0074158B /* SecurityTokenServiceAssumedRoleUserUnmarshaller.m in Sources */,
-				B25A7DD817694C6C0074158B /* SecurityTokenServiceAssumeRoleRequest.m in Sources */,
-				B25A7DD917694C6C0074158B /* SecurityTokenServiceAssumeRoleRequestMarshaller.m in Sources */,
-				B25A7DDA17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponse.m in Sources */,
-				B25A7DDB17694C6C0074158B /* SecurityTokenServiceAssumeRoleResponseUnmarshaller.m in Sources */,
-				B25A7DDC17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequest.m in Sources */,
-				B25A7DDD17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityRequestMarshaller.m in Sources */,
-				B25A7DDE17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponse.m in Sources */,
-				B25A7DDF17694C6C0074158B /* SecurityTokenServiceAssumeRoleWithWebIdentityResponseUnmarshaller.m in Sources */,
-				B25A7DE017694C6C0074158B /* SecurityTokenServiceCredentials.m in Sources */,
-				B25A7DE117694C6C0074158B /* SecurityTokenServiceCredentialsUnmarshaller.m in Sources */,
-				B25A7DE217694C6C0074158B /* SecurityTokenServiceExpiredTokenException.m in Sources */,
-				B25A7DE317694C6C0074158B /* SecurityTokenServiceFederatedUser.m in Sources */,
-				B25A7DE417694C6C0074158B /* SecurityTokenServiceFederatedUserUnmarshaller.m in Sources */,
-				B25A7DE517694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequest.m in Sources */,
-				B25A7DE617694C6C0074158B /* SecurityTokenServiceGetFederationTokenRequestMarshaller.m in Sources */,
-				B25A7DE717694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponse.m in Sources */,
-				B25A7DE817694C6C0074158B /* SecurityTokenServiceGetFederationTokenResponseUnmarshaller.m in Sources */,
-				B25A7DE917694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequest.m in Sources */,
-				B25A7DEA17694C6C0074158B /* SecurityTokenServiceGetSessionTokenRequestMarshaller.m in Sources */,
-				B25A7DEB17694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponse.m in Sources */,
-				B25A7DEC17694C6C0074158B /* SecurityTokenServiceGetSessionTokenResponseUnmarshaller.m in Sources */,
-				B25A7DED17694C6C0074158B /* SecurityTokenServiceIDPCommunicationErrorException.m in Sources */,
-				B25A7DEE17694C6C0074158B /* SecurityTokenServiceIDPRejectedClaimException.m in Sources */,
-				B25A7DEF17694C6C0074158B /* SecurityTokenServiceInvalidIdentityTokenException.m in Sources */,
-				B25A7DF017694C6C0074158B /* SecurityTokenServiceMalformedPolicyDocumentException.m in Sources */,
-				B25A7DF117694C6C0074158B /* SecurityTokenServicePackedPolicyTooLargeException.m in Sources */,
-				B25A7DF217694C6C0074158B /* SecurityTokenServiceRequest.m in Sources */,
-				B25A7DF317694C6C0074158B /* SecurityTokenServiceResponse.m in Sources */,
-				B25A7DF417694C6C0074158B /* SecurityTokenServiceResponseUnmarshaller.m in Sources */,
-				B25A7DF517694C6C0074158B /* AmazonWIFCredentialsProvider.m in Sources */,
+				B25A7DD417694C6C0074158B /* (null) in Sources */,
+				B25A7DD517694C6C0074158B /* (null) in Sources */,
+				B25A7DD617694C6C0074158B /* (null) in Sources */,
+				B25A7DD717694C6C0074158B /* (null) in Sources */,
+				B25A7DD817694C6C0074158B /* (null) in Sources */,
+				B25A7DD917694C6C0074158B /* (null) in Sources */,
+				B25A7DDA17694C6C0074158B /* (null) in Sources */,
+				B25A7DDB17694C6C0074158B /* (null) in Sources */,
+				B25A7DDC17694C6C0074158B /* (null) in Sources */,
+				B25A7DDD17694C6C0074158B /* (null) in Sources */,
+				B25A7DDE17694C6C0074158B /* (null) in Sources */,
+				B25A7DDF17694C6C0074158B /* (null) in Sources */,
+				B25A7DE017694C6C0074158B /* (null) in Sources */,
+				B25A7DE117694C6C0074158B /* (null) in Sources */,
+				B25A7DE217694C6C0074158B /* (null) in Sources */,
+				B25A7DE317694C6C0074158B /* (null) in Sources */,
+				B25A7DE417694C6C0074158B /* (null) in Sources */,
+				B25A7DE517694C6C0074158B /* (null) in Sources */,
+				B25A7DE617694C6C0074158B /* (null) in Sources */,
+				B25A7DE717694C6C0074158B /* (null) in Sources */,
+				B25A7DE817694C6C0074158B /* (null) in Sources */,
+				B25A7DE917694C6C0074158B /* (null) in Sources */,
+				B25A7DEA17694C6C0074158B /* (null) in Sources */,
+				B25A7DEB17694C6C0074158B /* (null) in Sources */,
+				B25A7DEC17694C6C0074158B /* (null) in Sources */,
+				B25A7DED17694C6C0074158B /* (null) in Sources */,
+				B25A7DEE17694C6C0074158B /* (null) in Sources */,
+				B25A7DEF17694C6C0074158B /* (null) in Sources */,
+				B25A7DF017694C6C0074158B /* (null) in Sources */,
+				B25A7DF117694C6C0074158B /* (null) in Sources */,
+				B25A7DF217694C6C0074158B /* (null) in Sources */,
+				B25A7DF317694C6C0074158B /* (null) in Sources */,
+				B25A7DF417694C6C0074158B /* (null) in Sources */,
+				B25A7DF517694C6C0074158B /* (null) in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -20127,8 +20127,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
@@ -20160,8 +20160,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DSTROOT = /tmp/s3.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -20178,6 +20178,7 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=*]" = 5.1.1;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
