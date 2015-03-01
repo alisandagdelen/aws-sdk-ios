@@ -17,13 +17,18 @@
 #import "AmazonErrorHandler.h"
 
 
+typedef struct _AWSRange {
+    int64_t location;
+    int64_t length;
+} AWSRange;
+
 @interface S3MultipartUploadOperation_Internal ()
 {
     
 }
 
-@property (nonatomic, assign) NSUInteger contentLength;
-@property (nonatomic, assign) NSUInteger currentPartNo;
+@property (nonatomic, assign) int64_t contentLength;
+@property (nonatomic, assign) NSInteger currentPartNo;
 @property (nonatomic, assign) NSInteger numberOfParts;
 @property (nonatomic, assign) NSInteger retryCount;
 @property (nonatomic, copy) AbortMultipartUploadBlock abortMultipartUpload;
@@ -173,7 +178,7 @@
 
 - (void)uploadPart:(NSInteger)partNo
 {
-    NSRange dataRange = [self getDataRange:partNo withContentLength:self.contentLength];
+    AWSRange dataRange = [self getDataRange:partNo withContentLength:self.contentLength];
 
     self.error = nil;
     self.exception = nil;
@@ -191,7 +196,11 @@
     {
         if(self.request.data != nil)
         {
-            self.dataForPart = [self.request.data subdataWithRange:dataRange];
+            NSRange range;
+            range.location = dataRange.location;
+            range.length = dataRange.length;
+            
+            self.dataForPart = [self.request.data subdataWithRange:range];
         }
         else
         {
@@ -203,7 +212,7 @@
             NSMutableData *dataForPart = [NSMutableData new];
 
             uint8_t buffer[1024];
-            NSUInteger readLength = 0;
+            NSInteger readLength = 0;
 
             for(int i = 0; i < ceil((double) self.partSize / 1024); i++)
             {
@@ -302,7 +311,7 @@
     }
 }
 
-- (void)request:(AmazonServiceRequest *)request didSendData:(NSInteger)bytesWritten totalBytesWritten:(NSInteger)totalBytesWritten totalBytesExpectedToWrite:(NSInteger)totalBytesExpectedToWrite
+- (void)request:(AmazonServiceRequest *)request didSendData:(long long)bytesWritten totalBytesWritten:(long long)totalBytesWritten totalBytesExpectedToWrite:(long long)totalBytesExpectedToWrite
 {
     if(!self.isFinished && self.isExecuting)
     {
@@ -312,8 +321,8 @@
             {
                 [self.request.delegate request:request
                                    didSendData:bytesWritten
-                             totalBytesWritten:(self.currentPartNo - 1) * self.partSize + totalBytesWritten
-                     totalBytesExpectedToWrite:self.contentLength];
+                             totalBytesWritten:(long long)(((long long) self.currentPartNo - 1) * self.partSize + totalBytesWritten)
+                     totalBytesExpectedToWrite:(long long)self.contentLength];
             }
         }
     }
@@ -438,13 +447,13 @@
     [self didChangeValueForKey:@"isFinished"];
 }
 
-- (NSRange)getDataRange:(int)partNo withContentLength:(NSInteger)contentLength
+- (AWSRange)getDataRange:(NSInteger)partNo withContentLength:(int64_t)contentLength
 {
-    NSRange range;
+    AWSRange range;
     range.length = self.partSize;
     range.location = (partNo - 1) * self.partSize;
 
-    int maxByte = partNo * self.partSize;
+    int64_t maxByte = partNo * self.partSize;
     if (contentLength < maxByte) {
         range.length = contentLength - range.location;
     }
@@ -452,11 +461,11 @@
     return range;
 }
 
-- (NSUInteger)contentLengthForRequest:(S3PutObjectRequest *)request
+- (int64_t)contentLengthForRequest:(S3PutObjectRequest *)request
 {
     if(request.data != nil)
     {
-        return self.request.data.length;
+        return (int64_t) self.request.data.length;
     }
     else
     {
@@ -464,9 +473,9 @@
     }
 }
 
-- (NSUInteger)numberOfParts:(NSUInteger)contentLength
+- (NSInteger)numberOfParts:(int64_t)contentLength
 {
-    return (NSUInteger)ceil((double)contentLength / self.partSize);
+    return (NSInteger)ceil((double)contentLength / self.partSize);
 }
 
 - (void)updateProperties:(AmazonServiceRequest *)serviceRequest
