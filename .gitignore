@@ -12,6 +12,7 @@ Thumbs.db
 # Xcode generated files #
 ######################
 xcuserdata
+*.xccheckout
 
 # Patched code #
 ######################
@@ -20,4 +21,15 @@ xcuserdata
 # Built assets #
 ######################
 build
-*.framework
+AWS*.framework
+
+# Stuff that can't be committed #
+######################
+credentials.json
+Pods
+Podfile.lock
+Documentation
+Scripts/build.sh
+Scripts/gcovr
+Scripts/jenkins.py
+Scripts/ocunit2junit
