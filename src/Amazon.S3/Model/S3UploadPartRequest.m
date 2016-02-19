@@ -17,6 +17,12 @@
 #import "AmazonMD5Util.h"
 
 @implementation S3UploadPartRequest
+@synthesize data = _data;
+@synthesize uploadId = _uploadId;
+@synthesize stream = _stream;
+@synthesize partNumber = _partNumber;
+@synthesize contentMD5 = _contentMD5;
+@synthesize generateMD5 = _generateMD5;
 
 -(id)initWithMultipartUpload:(S3MultipartUpload *)multipartUpload
 {

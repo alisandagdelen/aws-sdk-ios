@@ -38,6 +38,7 @@ extern NSString *const AWSClockSkewError;
     bool                 isFinishedLoading;
     bool                 didTimeout;
     BOOL                 isAsyncCall;
+    BOOL                hasClockSkewError;
     Class                unmarshallerDelegate;
     NSError *error;
 

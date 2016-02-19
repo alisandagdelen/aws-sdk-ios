@@ -17,13 +17,25 @@
 #import "AmazonMD5Util.h"
 
 @implementation S3PutObjectRequest
+@synthesize data = data;
+@synthesize filename = filename;
+@synthesize stream = stream;
+@synthesize cacheControl = cacheControl;
+@synthesize contentDisposition = contentDisposition;
+@synthesize redirectLocation = redirectLocation;
+@synthesize contentEncoding = contentEncoding;
+@synthesize generateMD5 = generateMD5;
+@synthesize expect = expect;
+@synthesize expires = expires;
+@synthesize contentMD5 = contentMD5;
+
 
 -(id)init
 {
     if (self = [super init])
     {
-        _expires = 0;
-        _generateMD5 = YES;
+        expires = 0;
+        generateMD5 = YES;
 
         expiresSet  = NO;
     }
@@ -44,7 +56,7 @@
 
 -(void)setExpires:(NSInteger)exp
 {
-    _expires    = exp;
+    expires    = exp;
     expiresSet = YES;
 }
 
@@ -159,15 +171,15 @@
 
 -(void)dealloc
 {
-    [_cacheControl release];
-    [_contentDisposition release];
-    [_contentEncoding release];
-    [_contentMD5 release];
-    [_expect release];
-    [_data release];
-    [_stream release];
-    [_filename release];
-    [_redirectLocation release];
+    [cacheControl release];
+    [contentDisposition release];
+    [contentEncoding release];
+    [contentMD5 release];
+    [expect release];
+    [data release];
+    [stream release];
+    [filename release];
+    [redirectLocation release];
     
     [super dealloc];
 }

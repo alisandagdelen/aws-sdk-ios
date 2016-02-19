@@ -29,6 +29,17 @@
  *
  */
 @interface S3Response:AmazonServiceResponse {
+    NSString *_connectionState;
+    NSString *_etag;
+    NSString *_server;
+    NSString *_id2;
+    NSString *_versionId;
+    NSString *_serverSideEncryption;
+    NSDate *_date;
+    BOOL _deleteMarker;
+    int64_t _contentLength;
+    NSMutableDictionary *_headers;
+    NSDictionary *_responseHeader;
 }
 
 /** Specfies whether the connection to the server is open or closed. */

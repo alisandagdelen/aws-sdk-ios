@@ -17,6 +17,16 @@
 #import "S3BucketNameUtilities.h"
 
 @implementation S3Request
+@synthesize key = _key;
+@synthesize subResource = _subResource;
+@synthesize contentLength = _contentLength;
+@synthesize securityToken = _securityToken;
+@synthesize host = _host;
+@synthesize bucket = _bucket;
+@synthesize authorization = _authorization;
+@synthesize contentType = _contentType;
+@synthesize url = _url;
+@synthesize date = _date;
 
 #pragma mark methods
 

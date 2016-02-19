@@ -21,6 +21,12 @@
  *
  */
 @interface S3UploadPartRequest:S3Request {
+    NSInteger _partNumber;
+    NSString *_contentMD5;
+    BOOL _generateMD5;
+    NSString *_uploadId;
+    NSData *_data;
+    NSInputStream *_stream;
 }
 
 /** Identifies which part this is. */

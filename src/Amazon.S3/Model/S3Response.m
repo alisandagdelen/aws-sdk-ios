@@ -24,6 +24,18 @@
 @end
 
 @implementation S3Response
+@synthesize deleteMarker = _deleteMarker;
+@synthesize headers = _headers;
+@synthesize connectionState = _connectionState;
+@synthesize etag = _etag;
+@synthesize id2 = _id2;
+@synthesize versionId = _versionId;
+@synthesize serverSideEncryption = _serverSideEncryption;
+@synthesize server = _server;
+@synthesize date = _date;
+@synthesize contentLength = _contentLength;
+@synthesize responseHeader = _responseHeader;
+
 
 -(id)init
 {
